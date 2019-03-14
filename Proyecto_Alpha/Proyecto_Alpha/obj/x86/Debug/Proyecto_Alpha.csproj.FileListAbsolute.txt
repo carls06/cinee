@@ -1,0 +1,8 @@
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.csprojAssemblyReference.cache
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.form.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.login.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.csproj.GenerateResource.cache
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\x86\Debug\Proyecto_Alpha.csproj.CoreCompileInputs.cache

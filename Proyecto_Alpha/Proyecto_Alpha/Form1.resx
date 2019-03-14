@@ -1,0 +1,3687 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <metadata name="menuStrip1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>17, 17</value>
+  </metadata>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="agregarEventoToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="agregarEventoToolStripMenuItem.Text" xml:space="preserve">
+    <value>Agregar Evento</value>
+  </data>
+  <data name="cerrarSesionToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>168, 22</value>
+  </data>
+  <data name="cerrarSesionToolStripMenuItem.Text" xml:space="preserve">
+    <value>Cerrar Sesion</value>
+  </data>
+  <data name="menuToolStripMenuItem.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baskerville Old Face, 9.75pt, style=Bold</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuToolStripMenuItem.ShowShortcutKeys" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="menuToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>55, 20</value>
+  </data>
+  <data name="menuToolStripMenuItem.Text" xml:space="preserve">
+    <value>Menu</value>
+  </data>
+  <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="menuStrip1.Padding" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>7, 2, 0, 2</value>
+  </data>
+  <data name="menuStrip1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1190, 24</value>
+  </data>
+  <data name="menuStrip1.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="menuStrip1.Text" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Name" xml:space="preserve">
+    <value>menuStrip1</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.MenuStrip, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;menuStrip1.ZOrder" xml:space="preserve">
+    <value>73</value>
+  </data>
+  <data name="A1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>265, 746</value>
+  </data>
+  <data name="A1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="A1.Text" xml:space="preserve">
+    <value>A1</value>
+  </data>
+  <data name="A1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A1.Name" xml:space="preserve">
+    <value>A1</value>
+  </data>
+  <data name="&gt;&gt;A1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A1.ZOrder" xml:space="preserve">
+    <value>72</value>
+  </data>
+  <data name="btnsql.Location" type="System.Drawing.Point, System.Drawing">
+    <value>45, 127</value>
+  </data>
+  <data name="btnsql.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnsql.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="btnsql.Text" xml:space="preserve">
+    <value>Compar</value>
+  </data>
+  <data name="&gt;&gt;btnsql.Name" xml:space="preserve">
+    <value>btnsql</value>
+  </data>
+  <data name="&gt;&gt;btnsql.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnsql.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;btnsql.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="cmbFuncion.Location" type="System.Drawing.Point, System.Drawing">
+    <value>89, 19</value>
+  </data>
+  <data name="cmbFuncion.Size" type="System.Drawing.Size, System.Drawing">
+    <value>203, 22</value>
+  </data>
+  <data name="cmbFuncion.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;cmbFuncion.Name" xml:space="preserve">
+    <value>cmbFuncion</value>
+  </data>
+  <data name="&gt;&gt;cmbFuncion.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbFuncion.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbFuncion.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="cmbHora.Location" type="System.Drawing.Point, System.Drawing">
+    <value>406, 19</value>
+  </data>
+  <data name="cmbHora.Size" type="System.Drawing.Size, System.Drawing">
+    <value>195, 22</value>
+  </data>
+  <data name="cmbHora.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;cmbHora.Name" xml:space="preserve">
+    <value>cmbHora</value>
+  </data>
+  <data name="&gt;&gt;cmbHora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cmbHora.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;cmbHora.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>8, 22</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>57, 14</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Función</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>313, 27</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 14</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>Hora</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="hora.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>132, 17</value>
+  </metadata>
+  <data name="A2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 746</value>
+  </data>
+  <data name="A2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A2.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="A2.Text" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="A2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A2.Name" xml:space="preserve">
+    <value>A2</value>
+  </data>
+  <data name="&gt;&gt;A2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A2.ZOrder" xml:space="preserve">
+    <value>71</value>
+  </data>
+  <data name="A3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 746</value>
+  </data>
+  <data name="A3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A3.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="A3.Text" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="A3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A3.Name" xml:space="preserve">
+    <value>A3</value>
+  </data>
+  <data name="&gt;&gt;A3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A3.ZOrder" xml:space="preserve">
+    <value>70</value>
+  </data>
+  <data name="A4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 746</value>
+  </data>
+  <data name="A4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A4.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="A4.Text" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="A4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A4.Name" xml:space="preserve">
+    <value>A4</value>
+  </data>
+  <data name="&gt;&gt;A4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A4.ZOrder" xml:space="preserve">
+    <value>69</value>
+  </data>
+  <data name="A5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 746</value>
+  </data>
+  <data name="A5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A5.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="A5.Text" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="A5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A5.Name" xml:space="preserve">
+    <value>A5</value>
+  </data>
+  <data name="&gt;&gt;A5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A5.ZOrder" xml:space="preserve">
+    <value>68</value>
+  </data>
+  <data name="A6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 746</value>
+  </data>
+  <data name="A6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A6.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="A6.Text" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="A6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A6.Name" xml:space="preserve">
+    <value>A6</value>
+  </data>
+  <data name="&gt;&gt;A6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A6.ZOrder" xml:space="preserve">
+    <value>67</value>
+  </data>
+  <data name="A7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 746</value>
+  </data>
+  <data name="A7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A7.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="A7.Text" xml:space="preserve">
+    <value>A7</value>
+  </data>
+  <data name="A7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A7.Name" xml:space="preserve">
+    <value>A7</value>
+  </data>
+  <data name="&gt;&gt;A7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A7.ZOrder" xml:space="preserve">
+    <value>66</value>
+  </data>
+  <data name="A8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 746</value>
+  </data>
+  <data name="A8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A8.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="A8.Text" xml:space="preserve">
+    <value>A8</value>
+  </data>
+  <data name="A8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A8.Name" xml:space="preserve">
+    <value>A8</value>
+  </data>
+  <data name="&gt;&gt;A8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A8.ZOrder" xml:space="preserve">
+    <value>65</value>
+  </data>
+  <data name="A9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 746</value>
+  </data>
+  <data name="A9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="A9.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="A9.Text" xml:space="preserve">
+    <value>A9</value>
+  </data>
+  <data name="A9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A9.Name" xml:space="preserve">
+    <value>A9</value>
+  </data>
+  <data name="&gt;&gt;A9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A9.ZOrder" xml:space="preserve">
+    <value>64</value>
+  </data>
+  <data name="A10.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="A10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="A10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="A10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 746</value>
+  </data>
+  <data name="A10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 38</value>
+  </data>
+  <data name="A10.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="A10.Text" xml:space="preserve">
+    <value>A10</value>
+  </data>
+  <data name="A10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;A10.Name" xml:space="preserve">
+    <value>A10</value>
+  </data>
+  <data name="&gt;&gt;A10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;A10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;A10.ZOrder" xml:space="preserve">
+    <value>63</value>
+  </data>
+  <metadata name="reserva.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>208, 17</value>
+  </metadata>
+  <data name="listBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>995, 57</value>
+  </data>
+  <data name="listBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>120, 17</value>
+  </data>
+  <data name="listBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="listBox1.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Name" xml:space="preserve">
+    <value>listBox1</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;listBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;listBox1.ZOrder" xml:space="preserve">
+    <value>62</value>
+  </data>
+  <data name="nombrebu.Text" xml:space="preserve">
+    <value>butaca</value>
+  </data>
+  <data name="nombrebu.Width" type="System.Int32, mscorlib">
+    <value>81</value>
+  </data>
+  <data name="Precio.Text" xml:space="preserve">
+    <value>Precio $</value>
+  </data>
+  <data name="Precio.Width" type="System.Int32, mscorlib">
+    <value>82</value>
+  </data>
+  <data name="lslButaca.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baskerville Old Face, 9.75pt, style=Bold</value>
+  </data>
+  <data name="lslButaca.Location" type="System.Drawing.Point, System.Drawing">
+    <value>995, 135</value>
+  </data>
+  <data name="lslButaca.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 341</value>
+  </data>
+  <data name="lslButaca.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;lslButaca.Name" xml:space="preserve">
+    <value>lslButaca</value>
+  </data>
+  <data name="&gt;&gt;lslButaca.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ListView, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lslButaca.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lslButaca.ZOrder" xml:space="preserve">
+    <value>61</value>
+  </data>
+  <data name="tipo.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="tipo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="tipo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>104, 38</value>
+  </data>
+  <data name="tipo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 16</value>
+  </data>
+  <data name="tipo.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;tipo.Name" xml:space="preserve">
+    <value>tipo</value>
+  </data>
+  <data name="&gt;&gt;tipo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tipo.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tipo.ZOrder" xml:space="preserve">
+    <value>60</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>34, 135</value>
+  </data>
+  <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>928, 743</value>
+  </data>
+  <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
+    <value>pictureBox1</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>74</value>
+  </data>
+  <data name="B10.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 702</value>
+  </data>
+  <data name="B10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 38</value>
+  </data>
+  <data name="B10.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="B10.Text" xml:space="preserve">
+    <value>B10</value>
+  </data>
+  <data name="B10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B10.Name" xml:space="preserve">
+    <value>B10</value>
+  </data>
+  <data name="&gt;&gt;B10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B10.ZOrder" xml:space="preserve">
+    <value>59</value>
+  </data>
+  <data name="B9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>687, 702</value>
+  </data>
+  <data name="B9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B9.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="B9.Text" xml:space="preserve">
+    <value>B9</value>
+  </data>
+  <data name="B9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B9.Name" xml:space="preserve">
+    <value>B9</value>
+  </data>
+  <data name="&gt;&gt;B9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B9.ZOrder" xml:space="preserve">
+    <value>58</value>
+  </data>
+  <data name="B6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>555, 702</value>
+  </data>
+  <data name="B6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B6.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="B6.Text" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="B6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B6.Name" xml:space="preserve">
+    <value>B6</value>
+  </data>
+  <data name="&gt;&gt;B6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B6.ZOrder" xml:space="preserve">
+    <value>57</value>
+  </data>
+  <data name="B7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>599, 702</value>
+  </data>
+  <data name="B7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B7.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="B7.Text" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="B7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B7.Name" xml:space="preserve">
+    <value>B7</value>
+  </data>
+  <data name="&gt;&gt;B7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B7.ZOrder" xml:space="preserve">
+    <value>56</value>
+  </data>
+  <data name="B8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>642, 702</value>
+  </data>
+  <data name="B8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B8.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="B8.Text" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="B8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B8.Name" xml:space="preserve">
+    <value>B8</value>
+  </data>
+  <data name="&gt;&gt;B8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B8.ZOrder" xml:space="preserve">
+    <value>55</value>
+  </data>
+  <data name="B1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 702</value>
+  </data>
+  <data name="B1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B1.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="B1.Text" xml:space="preserve">
+    <value>B1</value>
+  </data>
+  <data name="B1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B1.Name" xml:space="preserve">
+    <value>B1</value>
+  </data>
+  <data name="&gt;&gt;B1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B1.ZOrder" xml:space="preserve">
+    <value>54</value>
+  </data>
+  <data name="B2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 702</value>
+  </data>
+  <data name="B2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="B2.Text" xml:space="preserve">
+    <value>B2</value>
+  </data>
+  <data name="B2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B2.Name" xml:space="preserve">
+    <value>B2</value>
+  </data>
+  <data name="&gt;&gt;B2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B2.ZOrder" xml:space="preserve">
+    <value>53</value>
+  </data>
+  <data name="B3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 702</value>
+  </data>
+  <data name="B3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B3.TabIndex" type="System.Int32, mscorlib">
+    <value>27</value>
+  </data>
+  <data name="B3.Text" xml:space="preserve">
+    <value>B3</value>
+  </data>
+  <data name="B3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B3.Name" xml:space="preserve">
+    <value>B3</value>
+  </data>
+  <data name="&gt;&gt;B3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B3.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="B4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>396, 702</value>
+  </data>
+  <data name="B4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B4.TabIndex" type="System.Int32, mscorlib">
+    <value>28</value>
+  </data>
+  <data name="B4.Text" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="B4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B4.Name" xml:space="preserve">
+    <value>B4</value>
+  </data>
+  <data name="&gt;&gt;B4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B4.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="B5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="B5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="B5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="B5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 702</value>
+  </data>
+  <data name="B5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="B5.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="B5.Text" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="B5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;B5.Name" xml:space="preserve">
+    <value>B5</value>
+  </data>
+  <data name="&gt;&gt;B5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;B5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;B5.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="C6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 658</value>
+  </data>
+  <data name="C6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C6.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="C6.Text" xml:space="preserve">
+    <value>C6</value>
+  </data>
+  <data name="C6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C6.Name" xml:space="preserve">
+    <value>C6</value>
+  </data>
+  <data name="&gt;&gt;C6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C6.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="C7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 658</value>
+  </data>
+  <data name="C7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C7.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="C7.Text" xml:space="preserve">
+    <value>C7</value>
+  </data>
+  <data name="C7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C7.Name" xml:space="preserve">
+    <value>C7</value>
+  </data>
+  <data name="&gt;&gt;C7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C7.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="C8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>643, 658</value>
+  </data>
+  <data name="C8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C8.TabIndex" type="System.Int32, mscorlib">
+    <value>32</value>
+  </data>
+  <data name="C8.Text" xml:space="preserve">
+    <value>C8</value>
+  </data>
+  <data name="C8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C8.Name" xml:space="preserve">
+    <value>C8</value>
+  </data>
+  <data name="&gt;&gt;C8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C8.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="C9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>686, 658</value>
+  </data>
+  <data name="C9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C9.TabIndex" type="System.Int32, mscorlib">
+    <value>33</value>
+  </data>
+  <data name="C9.Text" xml:space="preserve">
+    <value>C9</value>
+  </data>
+  <data name="C9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C9.Name" xml:space="preserve">
+    <value>C9</value>
+  </data>
+  <data name="&gt;&gt;C9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C9.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="C10.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>731, 658</value>
+  </data>
+  <data name="C10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>39, 38</value>
+  </data>
+  <data name="C10.TabIndex" type="System.Int32, mscorlib">
+    <value>34</value>
+  </data>
+  <data name="C10.Text" xml:space="preserve">
+    <value>C10</value>
+  </data>
+  <data name="C10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C10.Name" xml:space="preserve">
+    <value>C10</value>
+  </data>
+  <data name="&gt;&gt;C10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C10.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="C1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>267, 658</value>
+  </data>
+  <data name="C1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C1.TabIndex" type="System.Int32, mscorlib">
+    <value>35</value>
+  </data>
+  <data name="C1.Text" xml:space="preserve">
+    <value>C1</value>
+  </data>
+  <data name="C1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C1.Name" xml:space="preserve">
+    <value>C1</value>
+  </data>
+  <data name="&gt;&gt;C1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C1.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="C2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 658</value>
+  </data>
+  <data name="C2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C2.TabIndex" type="System.Int32, mscorlib">
+    <value>36</value>
+  </data>
+  <data name="C2.Text" xml:space="preserve">
+    <value>C2</value>
+  </data>
+  <data name="C2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C2.Name" xml:space="preserve">
+    <value>C2</value>
+  </data>
+  <data name="&gt;&gt;C2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C2.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="C3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>352, 658</value>
+  </data>
+  <data name="C3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C3.TabIndex" type="System.Int32, mscorlib">
+    <value>37</value>
+  </data>
+  <data name="C3.Text" xml:space="preserve">
+    <value>C3</value>
+  </data>
+  <data name="C3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C3.Name" xml:space="preserve">
+    <value>C3</value>
+  </data>
+  <data name="&gt;&gt;C3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C3.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="C4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 658</value>
+  </data>
+  <data name="C4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C4.TabIndex" type="System.Int32, mscorlib">
+    <value>38</value>
+  </data>
+  <data name="C4.Text" xml:space="preserve">
+    <value>C4</value>
+  </data>
+  <data name="C4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C4.Name" xml:space="preserve">
+    <value>C4</value>
+  </data>
+  <data name="&gt;&gt;C4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C4.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="C5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="C5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="C5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="C5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 658</value>
+  </data>
+  <data name="C5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="C5.TabIndex" type="System.Int32, mscorlib">
+    <value>39</value>
+  </data>
+  <data name="C5.Text" xml:space="preserve">
+    <value>C5</value>
+  </data>
+  <data name="C5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;C5.Name" xml:space="preserve">
+    <value>C5</value>
+  </data>
+  <data name="&gt;&gt;C5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;C5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;C5.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="D5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>553, 574</value>
+  </data>
+  <data name="D5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D5.TabIndex" type="System.Int32, mscorlib">
+    <value>40</value>
+  </data>
+  <data name="D5.Text" xml:space="preserve">
+    <value>D5</value>
+  </data>
+  <data name="D5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D5.Name" xml:space="preserve">
+    <value>D5</value>
+  </data>
+  <data name="&gt;&gt;D5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D5.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="D1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 574</value>
+  </data>
+  <data name="D1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D1.TabIndex" type="System.Int32, mscorlib">
+    <value>41</value>
+  </data>
+  <data name="D1.Text" xml:space="preserve">
+    <value>D1</value>
+  </data>
+  <data name="D1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D1.Name" xml:space="preserve">
+    <value>D1</value>
+  </data>
+  <data name="&gt;&gt;D1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D1.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="D2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>353, 574</value>
+  </data>
+  <data name="D2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D2.TabIndex" type="System.Int32, mscorlib">
+    <value>42</value>
+  </data>
+  <data name="D2.Text" xml:space="preserve">
+    <value>D2</value>
+  </data>
+  <data name="D2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D2.Name" xml:space="preserve">
+    <value>D2</value>
+  </data>
+  <data name="&gt;&gt;D2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D2.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="D3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>397, 574</value>
+  </data>
+  <data name="D3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D3.TabIndex" type="System.Int32, mscorlib">
+    <value>43</value>
+  </data>
+  <data name="D3.Text" xml:space="preserve">
+    <value>D3</value>
+  </data>
+  <data name="D3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D3.Name" xml:space="preserve">
+    <value>D3</value>
+  </data>
+  <data name="&gt;&gt;D3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D3.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="D4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>441, 574</value>
+  </data>
+  <data name="D4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D4.TabIndex" type="System.Int32, mscorlib">
+    <value>44</value>
+  </data>
+  <data name="D4.Text" xml:space="preserve">
+    <value>D4</value>
+  </data>
+  <data name="D4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D4.Name" xml:space="preserve">
+    <value>D4</value>
+  </data>
+  <data name="&gt;&gt;D4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D4.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="D8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 574</value>
+  </data>
+  <data name="D8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D8.TabIndex" type="System.Int32, mscorlib">
+    <value>45</value>
+  </data>
+  <data name="D8.Text" xml:space="preserve">
+    <value>D8</value>
+  </data>
+  <data name="D8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D8.Name" xml:space="preserve">
+    <value>D8</value>
+  </data>
+  <data name="&gt;&gt;D8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D8.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="D7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 574</value>
+  </data>
+  <data name="D7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D7.TabIndex" type="System.Int32, mscorlib">
+    <value>46</value>
+  </data>
+  <data name="D7.Text" xml:space="preserve">
+    <value>D7</value>
+  </data>
+  <data name="D7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D7.Name" xml:space="preserve">
+    <value>D7</value>
+  </data>
+  <data name="&gt;&gt;D7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D7.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="D6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="D6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="D6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="D6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 574</value>
+  </data>
+  <data name="D6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="D6.TabIndex" type="System.Int32, mscorlib">
+    <value>47</value>
+  </data>
+  <data name="D6.Text" xml:space="preserve">
+    <value>D6</value>
+  </data>
+  <data name="D6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;D6.Name" xml:space="preserve">
+    <value>D6</value>
+  </data>
+  <data name="&gt;&gt;D6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;D6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;D6.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="E3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 530</value>
+  </data>
+  <data name="E3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E3.TabIndex" type="System.Int32, mscorlib">
+    <value>48</value>
+  </data>
+  <data name="E3.Text" xml:space="preserve">
+    <value>E3</value>
+  </data>
+  <data name="E3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E3.Name" xml:space="preserve">
+    <value>E3</value>
+  </data>
+  <data name="&gt;&gt;E3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E3.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="E2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 530</value>
+  </data>
+  <data name="E2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E2.TabIndex" type="System.Int32, mscorlib">
+    <value>49</value>
+  </data>
+  <data name="E2.Text" xml:space="preserve">
+    <value>E2</value>
+  </data>
+  <data name="E2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E2.Name" xml:space="preserve">
+    <value>E2</value>
+  </data>
+  <data name="&gt;&gt;E2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E2.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="E1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>309, 530</value>
+  </data>
+  <data name="E1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E1.TabIndex" type="System.Int32, mscorlib">
+    <value>50</value>
+  </data>
+  <data name="E1.Text" xml:space="preserve">
+    <value>E1</value>
+  </data>
+  <data name="E1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E1.Name" xml:space="preserve">
+    <value>E1</value>
+  </data>
+  <data name="&gt;&gt;E1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E1.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="E4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>444, 530</value>
+  </data>
+  <data name="E4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E4.TabIndex" type="System.Int32, mscorlib">
+    <value>51</value>
+  </data>
+  <data name="E4.Text" xml:space="preserve">
+    <value>E4</value>
+  </data>
+  <data name="E4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E4.Name" xml:space="preserve">
+    <value>E4</value>
+  </data>
+  <data name="&gt;&gt;E4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E4.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="E8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>691, 530</value>
+  </data>
+  <data name="E8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E8.TabIndex" type="System.Int32, mscorlib">
+    <value>52</value>
+  </data>
+  <data name="E8.Text" xml:space="preserve">
+    <value>E8</value>
+  </data>
+  <data name="E8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E8.Name" xml:space="preserve">
+    <value>E8</value>
+  </data>
+  <data name="&gt;&gt;E8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E8.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="E7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 530</value>
+  </data>
+  <data name="E7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E7.TabIndex" type="System.Int32, mscorlib">
+    <value>53</value>
+  </data>
+  <data name="E7.Text" xml:space="preserve">
+    <value>E7</value>
+  </data>
+  <data name="E7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E7.Name" xml:space="preserve">
+    <value>E7</value>
+  </data>
+  <data name="&gt;&gt;E7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E7.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="E6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>601, 530</value>
+  </data>
+  <data name="E6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E6.TabIndex" type="System.Int32, mscorlib">
+    <value>54</value>
+  </data>
+  <data name="E6.Text" xml:space="preserve">
+    <value>E6</value>
+  </data>
+  <data name="E6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E6.Name" xml:space="preserve">
+    <value>E6</value>
+  </data>
+  <data name="&gt;&gt;E6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E6.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="E5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="E5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="E5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="E5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>554, 530</value>
+  </data>
+  <data name="E5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="E5.TabIndex" type="System.Int32, mscorlib">
+    <value>55</value>
+  </data>
+  <data name="E5.Text" xml:space="preserve">
+    <value>E5</value>
+  </data>
+  <data name="E5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;E5.Name" xml:space="preserve">
+    <value>E5</value>
+  </data>
+  <data name="&gt;&gt;E5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;E5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;E5.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="F2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="F2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="F2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="F2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>399, 486</value>
+  </data>
+  <data name="F2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="F2.TabIndex" type="System.Int32, mscorlib">
+    <value>56</value>
+  </data>
+  <data name="F2.Text" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="F2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;F2.Name" xml:space="preserve">
+    <value>F2</value>
+  </data>
+  <data name="&gt;&gt;F2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F2.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="F1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="F1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="F1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="F1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>354, 486</value>
+  </data>
+  <data name="F1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="F1.TabIndex" type="System.Int32, mscorlib">
+    <value>57</value>
+  </data>
+  <data name="F1.Text" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="F1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;F1.Name" xml:space="preserve">
+    <value>F1</value>
+  </data>
+  <data name="&gt;&gt;F1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F1.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="F4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="F4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="F4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="F4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>646, 482</value>
+  </data>
+  <data name="F4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="F4.TabIndex" type="System.Int32, mscorlib">
+    <value>58</value>
+  </data>
+  <data name="F4.Text" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="F4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;F4.Name" xml:space="preserve">
+    <value>F4</value>
+  </data>
+  <data name="&gt;&gt;F4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F4.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="F3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="F3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="F3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="F3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>598, 482</value>
+  </data>
+  <data name="F3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="F3.TabIndex" type="System.Int32, mscorlib">
+    <value>59</value>
+  </data>
+  <data name="F3.Text" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="F3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;F3.Name" xml:space="preserve">
+    <value>F3</value>
+  </data>
+  <data name="&gt;&gt;F3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;F3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;F3.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="G6.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G6.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G6.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G6.Location" type="System.Drawing.Point, System.Drawing">
+    <value>307, 371</value>
+  </data>
+  <data name="G6.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G6.TabIndex" type="System.Int32, mscorlib">
+    <value>60</value>
+  </data>
+  <data name="G6.Text" xml:space="preserve">
+    <value>G6</value>
+  </data>
+  <data name="G6.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G6.Name" xml:space="preserve">
+    <value>G6</value>
+  </data>
+  <data name="&gt;&gt;G6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G6.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G6.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="G5.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G5.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G5.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G5.Location" type="System.Drawing.Point, System.Drawing">
+    <value>236, 409</value>
+  </data>
+  <data name="G5.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G5.TabIndex" type="System.Int32, mscorlib">
+    <value>61</value>
+  </data>
+  <data name="G5.Text" xml:space="preserve">
+    <value>G5</value>
+  </data>
+  <data name="G5.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G5.Name" xml:space="preserve">
+    <value>G5</value>
+  </data>
+  <data name="&gt;&gt;G5.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G5.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G5.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="G4.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G4.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>191, 438</value>
+  </data>
+  <data name="G4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G4.TabIndex" type="System.Int32, mscorlib">
+    <value>62</value>
+  </data>
+  <data name="G4.Text" xml:space="preserve">
+    <value>G4</value>
+  </data>
+  <data name="G4.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G4.Name" xml:space="preserve">
+    <value>G4</value>
+  </data>
+  <data name="&gt;&gt;G4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G4.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G4.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="G3.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G3.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>145, 482</value>
+  </data>
+  <data name="G3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G3.TabIndex" type="System.Int32, mscorlib">
+    <value>63</value>
+  </data>
+  <data name="G3.Text" xml:space="preserve">
+    <value>G3</value>
+  </data>
+  <data name="G3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G3.Name" xml:space="preserve">
+    <value>G3</value>
+  </data>
+  <data name="&gt;&gt;G3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G3.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="G2.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>100, 518</value>
+  </data>
+  <data name="G2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G2.TabIndex" type="System.Int32, mscorlib">
+    <value>64</value>
+  </data>
+  <data name="G2.Text" xml:space="preserve">
+    <value>G2</value>
+  </data>
+  <data name="G2.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G2.Name" xml:space="preserve">
+    <value>G2</value>
+  </data>
+  <data name="&gt;&gt;G2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G2.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="G1.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>56, 557</value>
+  </data>
+  <data name="G1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G1.TabIndex" type="System.Int32, mscorlib">
+    <value>65</value>
+  </data>
+  <data name="G1.Text" xml:space="preserve">
+    <value>G1</value>
+  </data>
+  <data name="G1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G1.Name" xml:space="preserve">
+    <value>G1</value>
+  </data>
+  <data name="&gt;&gt;G1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G1.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="G12.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G12.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G12.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>751, 397</value>
+  </data>
+  <data name="G12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G12.TabIndex" type="System.Int32, mscorlib">
+    <value>66</value>
+  </data>
+  <data name="G12.Text" xml:space="preserve">
+    <value>G12</value>
+  </data>
+  <data name="G12.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G12.Name" xml:space="preserve">
+    <value>G12</value>
+  </data>
+  <data name="&gt;&gt;G12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G12.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G12.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="G11.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G11.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G11.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>674, 371</value>
+  </data>
+  <data name="G11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G11.TabIndex" type="System.Int32, mscorlib">
+    <value>67</value>
+  </data>
+  <data name="G11.Text" xml:space="preserve">
+    <value>G11</value>
+  </data>
+  <data name="G11.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G11.Name" xml:space="preserve">
+    <value>G11</value>
+  </data>
+  <data name="&gt;&gt;G11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G11.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G11.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="G10.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G10.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G10.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G10.Location" type="System.Drawing.Point, System.Drawing">
+    <value>585, 371</value>
+  </data>
+  <data name="G10.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G10.TabIndex" type="System.Int32, mscorlib">
+    <value>68</value>
+  </data>
+  <data name="G10.Text" xml:space="preserve">
+    <value>G10</value>
+  </data>
+  <data name="G10.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G10.Name" xml:space="preserve">
+    <value>G10</value>
+  </data>
+  <data name="&gt;&gt;G10.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G10.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G10.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="G9.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G9.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G9.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G9.Location" type="System.Drawing.Point, System.Drawing">
+    <value>514, 371</value>
+  </data>
+  <data name="G9.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G9.TabIndex" type="System.Int32, mscorlib">
+    <value>69</value>
+  </data>
+  <data name="G9.Text" xml:space="preserve">
+    <value>G9</value>
+  </data>
+  <data name="G9.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G9.Name" xml:space="preserve">
+    <value>G9</value>
+  </data>
+  <data name="&gt;&gt;G9.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G9.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G9.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="G8.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G8.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G8.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G8.Location" type="System.Drawing.Point, System.Drawing">
+    <value>440, 371</value>
+  </data>
+  <data name="G8.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G8.TabIndex" type="System.Int32, mscorlib">
+    <value>70</value>
+  </data>
+  <data name="G8.Text" xml:space="preserve">
+    <value>G8</value>
+  </data>
+  <data name="G8.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G8.Name" xml:space="preserve">
+    <value>G8</value>
+  </data>
+  <data name="&gt;&gt;G8.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G8.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G8.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="G7.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G7.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G7.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G7.Location" type="System.Drawing.Point, System.Drawing">
+    <value>376, 371</value>
+  </data>
+  <data name="G7.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 38</value>
+  </data>
+  <data name="G7.TabIndex" type="System.Int32, mscorlib">
+    <value>71</value>
+  </data>
+  <data name="G7.Text" xml:space="preserve">
+    <value>G7</value>
+  </data>
+  <data name="G7.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G7.Name" xml:space="preserve">
+    <value>G7</value>
+  </data>
+  <data name="&gt;&gt;G7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G7.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G7.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="G16.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G16.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G16.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>914, 530</value>
+  </data>
+  <data name="G16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G16.TabIndex" type="System.Int32, mscorlib">
+    <value>72</value>
+  </data>
+  <data name="G16.Text" xml:space="preserve">
+    <value>G16</value>
+  </data>
+  <data name="G16.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G16.Name" xml:space="preserve">
+    <value>G16</value>
+  </data>
+  <data name="&gt;&gt;G16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G16.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G16.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="G15.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G15.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G15.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>869, 497</value>
+  </data>
+  <data name="G15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G15.TabIndex" type="System.Int32, mscorlib">
+    <value>73</value>
+  </data>
+  <data name="G15.Text" xml:space="preserve">
+    <value>G15</value>
+  </data>
+  <data name="G15.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G15.Name" xml:space="preserve">
+    <value>G15</value>
+  </data>
+  <data name="&gt;&gt;G15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G15.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G15.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="G14.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G14.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G14.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>831, 456</value>
+  </data>
+  <data name="G14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G14.TabIndex" type="System.Int32, mscorlib">
+    <value>74</value>
+  </data>
+  <data name="G14.Text" xml:space="preserve">
+    <value>G14</value>
+  </data>
+  <data name="G14.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G14.Name" xml:space="preserve">
+    <value>G14</value>
+  </data>
+  <data name="&gt;&gt;G14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G14.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G14.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="G13.Appearance" type="System.Windows.Forms.Appearance, System.Windows.Forms">
+    <value>Button</value>
+  </data>
+  <data name="G13.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="G13.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAABGdBTUEAALGPC/xhBQAAAAlwSFlzAAAL
+        EwAACxMBAJqcGAAAAatJREFUWEft1ksrRVEYxvHjfpthSMplRkKSD8BAhvIJlIGMUIpC8QEYyYDyAZia
+        SSEkZSy5FDOJgfvt/+QorV5nr733IcpTv85q77XedfZutddK/OcvpxptSVW68BPJRj8O8eo4QB+y8C0p
+        xSbciV3rKEFak49dWBNadpCHtGUS1kSpTCAtKcI1rElSuUIhYqcT1gQ+OhA7Q7CK+xhA7IzBKu5DY2Nn
+        HFZxHxobOyOwivvQ2MjJSP5mohe3sCax3KAHGqt81PJKDfQhUaFjaBGqkFb0M9zJXOrTDn2Sh3GCF2xB
+        +0dg1NEtOgdlHu49V6q+GwjMI9yB0ogmrGAWUxhNUlvXdK8BzbBqPCAw2kyswYNwo9ds7X5ffTvWEJhK
+        bMMdvIwZ6A+eQ0/zcU/tM+jeNJbweaxoJ62AV7SThVn1QVQrF6GyCqtYFKoVOlpYVrEoVCt0umEVi6IL
+        oZODfVgFw9iDzpKRonPgInQg0dfsyZP66kCygGLEilbvKe5QqwsBqcc9jqC3GDsFuISeqkUXAtIK9b2A
+        DrNpSTnq3pte0Vsoe2/+51cnkXgD/LRbZzlaOIMAAAAASUVORK5CYII=
+</value>
+  </data>
+  <data name="G13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>796, 426</value>
+  </data>
+  <data name="G13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>40, 38</value>
+  </data>
+  <data name="G13.TabIndex" type="System.Int32, mscorlib">
+    <value>75</value>
+  </data>
+  <data name="G13.Text" xml:space="preserve">
+    <value>G13</value>
+  </data>
+  <data name="G13.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleCenter</value>
+  </data>
+  <data name="&gt;&gt;G13.Name" xml:space="preserve">
+    <value>G13</value>
+  </data>
+  <data name="&gt;&gt;G13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.CheckBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;G13.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;G13.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <metadata name="reset.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>298, 17</value>
+  </metadata>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 9.75pt, style=Bold</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>44, 38</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>66, 16</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>76</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Usuario:</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="groupBox1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baskerville Old Face, 9.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="groupBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>36, 57</value>
+  </data>
+  <data name="groupBox1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>638, 62</value>
+  </data>
+  <data name="groupBox1.TabIndex" type="System.Int32, mscorlib">
+    <value>77</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Name" xml:space="preserve">
+    <value>groupBox1</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblMoney.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblMoney.Location" type="System.Drawing.Point, System.Drawing">
+    <value>88, 46</value>
+  </data>
+  <data name="lblMoney.Size" type="System.Drawing.Size, System.Drawing">
+    <value>0, 14</value>
+  </data>
+  <data name="lblMoney.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;lblMoney.Name" xml:space="preserve">
+    <value>lblMoney</value>
+  </data>
+  <data name="&gt;&gt;lblMoney.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblMoney.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;lblMoney.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label4.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>25, 46</value>
+  </data>
+  <data name="label4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>44, 14</value>
+  </data>
+  <data name="label4.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="label4.Text" xml:space="preserve">
+    <value>Total:</value>
+  </data>
+  <data name="&gt;&gt;label4.Name" xml:space="preserve">
+    <value>label4</value>
+  </data>
+  <data name="&gt;&gt;label4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label4.Parent" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="groupBox2.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Baskerville Old Face, 9.75pt, style=Bold, Italic</value>
+  </data>
+  <data name="groupBox2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>995, 546</value>
+  </data>
+  <data name="groupBox2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>181, 194</value>
+  </data>
+  <data name="groupBox2.TabIndex" type="System.Int32, mscorlib">
+    <value>78</value>
+  </data>
+  <data name="groupBox2.Text" xml:space="preserve">
+    <value>Compra</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Name" xml:space="preserve">
+    <value>groupBox2</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.GroupBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;groupBox2.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btnEliminarF.Location" type="System.Drawing.Point, System.Drawing">
+    <value>760, 74</value>
+  </data>
+  <data name="btnEliminarF.Size" type="System.Drawing.Size, System.Drawing">
+    <value>75, 23</value>
+  </data>
+  <data name="btnEliminarF.TabIndex" type="System.Int32, mscorlib">
+    <value>79</value>
+  </data>
+  <data name="btnEliminarF.Text" xml:space="preserve">
+    <value>Eliminar</value>
+  </data>
+  <data name="btnEliminarF.Visible" type="System.Boolean, mscorlib">
+    <value>False</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarF.Name" xml:space="preserve">
+    <value>btnEliminarF</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarF.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarF.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnEliminarF.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>7, 13</value>
+  </data>
+  <data name="$this.AutoScroll" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>1207, 741</value>
+  </data>
+  <data name="$this.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Microsoft Sans Serif, 8.25pt, style=Bold</value>
+  </data>
+  <data name="$this.StartPosition" type="System.Windows.Forms.FormStartPosition, System.Windows.Forms">
+    <value>CenterParent</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>CINE SOYACITY</value>
+  </data>
+  <data name="&gt;&gt;menuToolStripMenuItem.Name" xml:space="preserve">
+    <value>menuToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;menuToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;agregarEventoToolStripMenuItem.Name" xml:space="preserve">
+    <value>agregarEventoToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;agregarEventoToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;cerrarSesionToolStripMenuItem.Name" xml:space="preserve">
+    <value>cerrarSesionToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;cerrarSesionToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;hora.Name" xml:space="preserve">
+    <value>hora</value>
+  </data>
+  <data name="&gt;&gt;hora.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reserva.Name" xml:space="preserve">
+    <value>reserva</value>
+  </data>
+  <data name="&gt;&gt;reserva.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;nombrebu.Name" xml:space="preserve">
+    <value>nombrebu</value>
+  </data>
+  <data name="&gt;&gt;nombrebu.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;Precio.Name" xml:space="preserve">
+    <value>Precio</value>
+  </data>
+  <data name="&gt;&gt;Precio.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ColumnHeader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;reset.Name" xml:space="preserve">
+    <value>reset</value>
+  </data>
+  <data name="&gt;&gt;reset.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Timer, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>form</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

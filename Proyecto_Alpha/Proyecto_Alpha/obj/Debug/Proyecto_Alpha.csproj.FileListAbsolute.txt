@@ -1,0 +1,68 @@
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojResolveAssemblyReference.cache
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Form1.resources
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.Cache
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\kev_m\Documents\Programacion III\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\mscorlib.dll
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\es\mscorlib.resources.dll
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\normidna.nlp
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\normnfc.nlp
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\normnfd.nlp
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\normnfkc.nlp
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\normnfkd.nlp
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojResolveAssemblyReference.cache
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.Cache
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.form.resources
+C:\Users\terminator\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojResolveAssemblyReference.cache
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.form.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\kev_m\Documents\Programacion III\Nueva carpeta\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.Cache
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojAssemblyReference.cache
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.form.resources
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.cache
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.CoreCompileInputs.cache
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\pc\Desktop\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojAssemblyReference.cache
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.form.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.cache
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.CoreCompileInputs.cache
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
