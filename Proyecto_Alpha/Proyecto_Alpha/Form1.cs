@@ -58,8 +58,8 @@ namespace Proyecto_Alpha
         }
         // cambiar la direccion por cada computadora
 
-        Image Rojo = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
-        Image Negro = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cine\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
+        Image Rojo = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
+        Image Negro = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
         private void btnsql_Click(object sender, EventArgs e)
         {

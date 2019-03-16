@@ -20,7 +20,7 @@ namespace Proyecto_Alpha
         }
 
 
-        //public funcion funcionSeleccionado { get; set; }
+        //public funcion FuncionSeleccionado { get; set; }
 
 
         //public static List<funcion> mostrartodo()
@@ -55,10 +55,10 @@ namespace Proyecto_Alpha
         {
             if (drid.SelectedRows.Count == 1)
             {
-                //Int64 Id = Convert.ToInt64(drid.CurrentRow.Cells[0].Value);
-                //funcionSeleccionado = funcionDAL.mostrartodo();                    //ObtenerProductos(Id);
+               // Int64 Id = Convert.ToInt64(drid.CurrentRow.Cells[0].Value);
+               // funcionSeleccionado = funcionDAL.mostrartodo();                    //ObtenerProductos(Id);
 
-                //this.Close();
+               // this.Close();
 
             }
 

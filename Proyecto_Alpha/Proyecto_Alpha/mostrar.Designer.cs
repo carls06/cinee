@@ -35,7 +35,7 @@
             // drid
             // 
             this.drid.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.drid.Location = new System.Drawing.Point(44, 48);
+            this.drid.Location = new System.Drawing.Point(50, 95);
             this.drid.Name = "drid";
             this.drid.Size = new System.Drawing.Size(686, 204);
             this.drid.TabIndex = 0;
