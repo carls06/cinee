@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Globalization;
+using WMPLib;
 
 namespace Proyecto_Alpha
 {
@@ -26,6 +27,9 @@ namespace Proyecto_Alpha
         private SqlCommand insert;
         //instacio un variable OleDbConection
         OleDbConnection cnn = new OleDbConnection();
+
+        WindowsMediaPlayer musica = new WindowsMediaPlayer();
+
         public form()
         {
             InitializeComponent();
@@ -82,7 +86,10 @@ namespace Proyecto_Alpha
                 reserva.Start();
                 reset.Start();
             }
+
+            musica.controls.stop();
         }
+
         public void suma()
         {
             double precio = lslButaca.Items.Count * 4.00;
@@ -198,9 +205,16 @@ namespace Proyecto_Alpha
         }
         private void cmbFuncion_SelectedIndexChanged(object sender, EventArgs e)
         {
-            hora.Start();
-        }
 
+            //MessageBox.Show(ruta);
+            musica.URL = ruta;
+            musica.controls.play();
+            hora.Start();
+
+           
+            
+        }
+        string ruta;
         private void Form1_Load(object sender, EventArgs e)
         {
             tipo.Text = login.tipo;
@@ -212,16 +226,22 @@ namespace Proyecto_Alpha
             else
                 agregarEventoToolStripMenuItem.Visible = false;
 
-            SqlCommand comander = new SqlCommand("SELECT nombreFu from funcion", conn);
+            SqlCommand comander = new SqlCommand("SELECT nombreFu,ruta from funcion", conn);
             using (SqlDataReader read = comander.ExecuteReader())
             {
                 while (read.Read())
                 {
                     if (!cmbFuncion.Items.Contains(read["nombreFu"].ToString()))
+                    {
                         cmbFuncion.Items.Add(read["nombreFu"].ToString());
+
+                        //ruta = read["ruta"].ToString();
+                    }
                 }
+                
                 hora.Start();
             }
+            
         }
 
         private void hora_Tick(object sender, EventArgs e)
@@ -235,18 +255,24 @@ namespace Proyecto_Alpha
             }
             else
             {
-                string s = "SELECT fecha from funcion where nombrefu like '" + cmbFuncion.SelectedText + "'";
+                string s = "SELECT fecha,ruta from funcion where nombrefu like '" + cmbFuncion.SelectedText + "'";
                 SqlCommand comander = new SqlCommand(s, conn);
                 using (SqlDataReader read = comander.ExecuteReader())
                 {
                     while (read.Read())
                     {
                         cmbHora.Items.Add(read["fecha"].ToString());
+                        ruta =read["ruta"].ToString();
                     }
+                  
+
                 }
+                
             }
+            
             hora.Stop();
             reset.Start();
+            
         }
 
         private void reserva_Tick(object sender, EventArgs e)

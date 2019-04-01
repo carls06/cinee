@@ -46,6 +46,10 @@
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAddEveneto = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
+            this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.label5 = new System.Windows.Forms.Label();
+            this.btnbmusic = new System.Windows.Forms.Button();
+            this.ruta = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -88,6 +92,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.btnbmusic);
+            this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
             this.groupBox1.Controls.Add(this.txtDescrip);
             this.groupBox1.Controls.Add(this.dateHora);
@@ -101,7 +107,7 @@
             this.groupBox1.Controls.Add(this.dateFecha);
             this.groupBox1.Location = new System.Drawing.Point(12, 35);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(477, 305);
+            this.groupBox1.Size = new System.Drawing.Size(577, 380);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Agregando Funciones";
@@ -141,7 +147,7 @@
             // 
             // btnAgre
             // 
-            this.btnAgre.Location = new System.Drawing.Point(390, 152);
+            this.btnAgre.Location = new System.Drawing.Point(496, 216);
             this.btnAgre.Name = "btnAgre";
             this.btnAgre.Size = new System.Drawing.Size(75, 23);
             this.btnAgre.TabIndex = 12;
@@ -155,13 +161,15 @@
             this.Nombre,
             this.Fecha,
             this.Hora,
-            this.Descrip});
-            this.lstFecha.Location = new System.Drawing.Point(6, 152);
+            this.Descrip,
+            this.ruta});
+            this.lstFecha.Location = new System.Drawing.Point(6, 216);
             this.lstFecha.Name = "lstFecha";
-            this.lstFecha.Size = new System.Drawing.Size(377, 147);
+            this.lstFecha.Size = new System.Drawing.Size(483, 147);
             this.lstFecha.TabIndex = 11;
             this.lstFecha.UseCompatibleStateImageBehavior = false;
             this.lstFecha.View = System.Windows.Forms.View.Details;
+            this.lstFecha.SelectedIndexChanged += new System.EventHandler(this.lstFecha_SelectedIndexChanged);
             // 
             // Nombre
             // 
@@ -181,10 +189,11 @@
             // Descrip
             // 
             this.Descrip.Text = "Descripción";
+            this.Descrip.Width = 82;
             // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(389, 181);
+            this.btnEliminar.Location = new System.Drawing.Point(495, 245);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(75, 23);
             this.btnEliminar.TabIndex = 8;
@@ -194,7 +203,7 @@
             // 
             // btnAddEveneto
             // 
-            this.btnAddEveneto.Location = new System.Drawing.Point(379, 357);
+            this.btnAddEveneto.Location = new System.Drawing.Point(414, 428);
             this.btnAddEveneto.Name = "btnAddEveneto";
             this.btnAddEveneto.Size = new System.Drawing.Size(75, 23);
             this.btnAddEveneto.TabIndex = 8;
@@ -210,12 +219,40 @@
             this.listBox1.Size = new System.Drawing.Size(139, 56);
             this.listBox1.TabIndex = 15;
             this.listBox1.Visible = false;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
+            // 
+            // openFileDialog1
+            // 
+            this.openFileDialog1.FileName = "openFileDialog1";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(169, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(80, 13);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Agregar musica";
+            // 
+            // btnbmusic
+            // 
+            this.btnbmusic.Location = new System.Drawing.Point(283, 153);
+            this.btnbmusic.Name = "btnbmusic";
+            this.btnbmusic.Size = new System.Drawing.Size(75, 23);
+            this.btnbmusic.TabIndex = 18;
+            this.btnbmusic.Text = "Buscar";
+            this.btnbmusic.UseVisualStyleBackColor = true;
+            this.btnbmusic.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // ruta
+            // 
+            this.ruta.Text = "ruta";
             // 
             // Agregar_Evento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(509, 392);
+            this.ClientSize = new System.Drawing.Size(650, 463);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnAddEveneto);
             this.Controls.Add(this.groupBox1);
@@ -247,5 +284,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.TextBox txtDescrip;
         private System.Windows.Forms.ColumnHeader Descrip;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.OpenFileDialog openFileDialog1;
+        private System.Windows.Forms.Button btnbmusic;
+        private System.Windows.Forms.ColumnHeader ruta;
     }
 }

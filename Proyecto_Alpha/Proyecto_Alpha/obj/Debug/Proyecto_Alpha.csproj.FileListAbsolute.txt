@@ -79,3 +79,5 @@ C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Pr
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.CoreCompileInputs.cache
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Interop.WMPLib.dll
+C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.ResolveComReference.cache

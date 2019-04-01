@@ -15,6 +15,8 @@ namespace Proyecto_Alpha
 {
     public partial class Agregar_Evento : Form
     {
+
+        String DireccionMusica = String.Empty;
         private SqlConnection conn;
         private SqlCommand insert;
         private string sCn;
@@ -50,7 +52,7 @@ namespace Proyecto_Alpha
                 string s = dateFecha.Value.Date.ToString("d/M/yyyy") + " " + dateHora.Value.ToString("hh:mm:00 tt");
                 if (!listBox1.Items.Contains(s))
                 {
-                    string[] c = { txtFuncion.Text, dateFecha.Value.Date.ToString("yyyy/MM/dd"), dateHora.Value.Hour + ":" + dateHora.Value.Minute + ":00", txtDescrip.Text };
+                    string[] c = { txtFuncion.Text, dateFecha.Value.Date.ToString("yyyy/MM/dd"), dateHora.Value.Hour + ":" + dateHora.Value.Minute + ":00", txtDescrip.Text, DireccionMusica };
                     ListViewItem lista = new ListViewItem(c);
                     lstFecha.Items.Add(lista);
                 }
@@ -75,8 +77,8 @@ namespace Proyecto_Alpha
             {
                 foreach (ListViewItem lista in lstFecha.Items)
                 {
-                    string insertar = "insert into funcion(fecha, nombrefu, descripcion)";
-                    insertar += " values(@Fecha, @Nombrefu, @Descripcion)";
+                    string insertar = "insert into funcion(fecha, nombrefu, descripcion,ruta)";
+                    insertar += " values(@Fecha, @Nombrefu, @Descripcion,@ruta)";
                     insert = new SqlCommand(insertar, conn);
                     insert.Parameters.Add(new SqlParameter("@Fecha", SqlDbType.SmallDateTime));
                     insert.Parameters["@Fecha"].Value = lista.SubItems[1].Text + " " + lista.SubItems[2].Text;
@@ -84,12 +86,39 @@ namespace Proyecto_Alpha
                     insert.Parameters["@Nombrefu"].Value = lista.Text;
                     insert.Parameters.Add(new SqlParameter("@Descripcion", SqlDbType.VarChar));
                     insert.Parameters["@Descripcion"].Value = lista.SubItems[3].Text;
+                    insert.Parameters.Add(new SqlParameter("@ruta", SqlDbType.VarChar));
+                    insert.Parameters["@ruta"].Value = lista.SubItems[4].Text;
+                
                     insert.ExecuteNonQuery();
                     //MessageBox.Show(lista.SubItems[1].Text + " " + lista.SubItems[2].Text);
                 }
                 conn.Close();
                 this.Close();
             }
+        }
+
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            OpenFileDialog openFileDialog= new OpenFileDialog();
+
+
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
+            {
+                DireccionMusica = openFileDialog.FileName;
+            }
+
+
+           
+        }
+
+        private void lstFecha_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
