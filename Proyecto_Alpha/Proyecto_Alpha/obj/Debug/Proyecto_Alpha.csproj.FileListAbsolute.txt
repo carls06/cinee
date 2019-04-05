@@ -81,3 +81,17 @@ C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Pr
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Interop.WMPLib.dll
 C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.ResolveComReference.cache
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe.config
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Interop.WMPLib.dll
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.ResolveComReference.cache
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.exe
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.pdb
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.exe
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\bin\Debug\Proyecto_Alpha.pdb
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csprojResolveAssemblyReference.cache
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Agregar_Evento.resources
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.form.resources
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.login.resources
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.mostrar.resources
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.Properties.Resources.resources
+C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\obj\Debug\Proyecto_Alpha.csproj.GenerateResource.Cache

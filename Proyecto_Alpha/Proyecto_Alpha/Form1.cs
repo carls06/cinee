@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using System.Data.OleDb;
 using System.Globalization;
 using WMPLib;
+using System.IO;
 
 namespace Proyecto_Alpha
 {
@@ -62,16 +63,18 @@ namespace Proyecto_Alpha
         }
         // cambiar la direccion por cada computadora
 
-        Image Rojo = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
-        Image Negro = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
+        Image Rojo = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
+        Image Negro = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
         private void btnsql_Click(object sender, EventArgs e)
         {
+            string s;
+            DateTime fech;
             if (cmbHora.SelectedItem == null) { }
             else
             {
-                string s = cmbHora.SelectedItem.ToString();
-                DateTime fech = Convert.ToDateTime(s);
+                 s = cmbHora.SelectedItem.ToString();
+                fech = Convert.ToDateTime(s);
                 foreach (ListViewItem item in lslButaca.Items)
                 {
                     string insertar = "insert into butaca(fecha, nombrebu)";
@@ -86,6 +89,32 @@ namespace Proyecto_Alpha
                 reserva.Start();
                 reset.Start();
             }
+
+            //StreamWriter sw = new StreamWriter("C:\\Test.txt");
+            StreamWriter sw = new StreamWriter("C:\\Users\\Terminator2.0\\Desktop\\cinee\\Proyecto_Alpha\\archivo\\test.txt");
+
+
+
+            sw.WriteLine("Bienvenido al cine SOYACITY");
+            sw.WriteLine("\nLa cantidad de Asientos comprados son: "+lslButaca.Items.Count);
+            sw.WriteLine("\nLos asientos comprados son");
+
+
+
+            foreach (ListViewItem item in lslButaca.Items)
+            {
+                sw.WriteLine(" "+item.Text);
+                
+               
+            }
+            sw.WriteLine("Fechan y hora: " );
+            //for (int i = 0; i < lslButaca.Items.Count;i++ )
+            //{
+            //    sw.WriteLine("");
+            //}
+            sw.WriteLine(" Total: "+lblMoney.Text+" $");
+            sw.WriteLine("---------------------------------------------------------------------------");
+            sw.Close();
 
             musica.controls.stop();
         }
