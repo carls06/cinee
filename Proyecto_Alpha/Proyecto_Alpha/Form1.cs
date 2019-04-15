@@ -63,8 +63,8 @@ namespace Proyecto_Alpha
         }
         // cambiar la direccion por cada computadora
 
-        Image Rojo = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
-        Image Negro = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
+        Image Rojo = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
+        Image Negro = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
         private void btnsql_Click(object sender, EventArgs e)
         {
@@ -90,32 +90,96 @@ namespace Proyecto_Alpha
                 reset.Start();
             }
 
-            //StreamWriter sw = new StreamWriter("C:\\Test.txt");
-            StreamWriter sw = new StreamWriter("C:\\Users\\Terminator2.0\\Desktop\\cinee\\Proyecto_Alpha\\archivo\\test.txt");
+            String fullimagepath = Path.Combine(Application.StartupPath, "Archivo\\" + cmbFuncion.Text + ".txt");
 
 
 
-            sw.WriteLine("Bienvenido al cine SOYACITY");
-            sw.WriteLine("\nLa cantidad de Asientos comprados son: "+lslButaca.Items.Count);
-            sw.WriteLine("\nLos asientos comprados son");
+            // MessageBox.Show(fullimagepath);
 
-
-
-            foreach (ListViewItem item in lslButaca.Items)
+            if (File.Exists(fullimagepath))
             {
-                sw.WriteLine(" "+item.Text);
-                
-               
-            }
-            sw.WriteLine("Fechan y hora: " );
-            //for (int i = 0; i < lslButaca.Items.Count;i++ )
-            //{
-            //    sw.WriteLine("");
-            //}
-            sw.WriteLine(" Total: "+lblMoney.Text+" $");
-            sw.WriteLine("---------------------------------------------------------------------------");
-            sw.Close();
+                StreamReader sr = new StreamReader(fullimagepath, true);
+                StreamWriter sw = new StreamWriter(fullimagepath);
 
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+
+                foreach (ListViewItem item in lslButaca.Items)
+                {
+                    sr.ReadLine();
+                }
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+
+                sr.Close();
+
+
+
+                sw.WriteLine("Bienvenido al cine SOYACITY");
+                sw.WriteLine("\nLa cantidad de Asientos comprados son: " + lslButaca.Items.Count);
+                sw.WriteLine("\nLos asientos comprados son");
+
+
+
+                foreach (ListViewItem item in lslButaca.Items)
+                {
+                    sw.WriteLine(" " + item.Text);
+
+
+                }
+                sw.WriteLine("Fechan y hora: ");
+
+                sw.WriteLine(" Total: " + lblMoney.Text + " $");
+                sw.WriteLine("---------------------------------------------------------------------------");
+                sw.Close();
+
+            }
+            else
+            {
+                StreamReader sr = new StreamReader(fullimagepath, true);
+                StreamWriter sw = new StreamWriter(fullimagepath, true);
+
+                sw.WriteLine("Bienvenido al cine SOYACITY");
+                sw.WriteLine("\nLa cantidad de Asientos comprados son: " + lslButaca.Items.Count);
+                sw.WriteLine("\nLos asientos comprados son");
+
+
+
+                foreach (ListViewItem item in lslButaca.Items)
+                {
+                    sw.WriteLine(" " + item.Text);
+
+
+                }
+                sw.WriteLine("Fechan y hora: ");
+
+                sw.WriteLine(" Total: " + lblMoney.Text + " $");
+                sw.WriteLine("---------------------------------------------------------------------------");
+
+
+
+
+
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+
+                foreach (ListViewItem item in lslButaca.Items)
+                {
+                    sr.ReadLine();
+                }
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.ReadLine();
+                sr.Close();
+                sw.Close();
+
+
+            }
             musica.controls.stop();
         }
 

@@ -1,0 +1,10 @@
+Bienvenido al cine SOYACITY
+
+La cantidad de Asientos comprados son: 2
+
+Los asientos comprados son
+ A10
+ A9
+Fechan y hora: 
+ Total: 8 $
+---------------------------------------------------------------------------
