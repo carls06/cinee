@@ -12,6 +12,7 @@ using System.Data.OleDb;
 using System.Globalization;
 using WMPLib;
 using System.IO;
+using System.Diagnostics;
 
 namespace Proyecto_Alpha
 {
@@ -63,8 +64,8 @@ namespace Proyecto_Alpha
         }
         // cambiar la direccion por cada computadora
 
-        Image Rojo = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
-        Image Negro = Image.FromFile(@"C:\Users\pc\Documents\GitKraken\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
+        Image Rojo = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
+        Image Negro = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
         private void btnsql_Click(object sender, EventArgs e)
         {
@@ -91,30 +92,16 @@ namespace Proyecto_Alpha
             }
 
             String fullimagepath = Path.Combine(Application.StartupPath, "Archivo\\" + cmbFuncion.Text + ".txt");
-
+            
 
 
             // MessageBox.Show(fullimagepath);
 
             if (File.Exists(fullimagepath))
             {
-                StreamReader sr = new StreamReader(fullimagepath, true);
-                StreamWriter sw = new StreamWriter(fullimagepath);
 
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-
-                foreach (ListViewItem item in lslButaca.Items)
-                {
-                    sr.ReadLine();
-                }
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-
-                sr.Close();
+              //  StreamReader sr = new StreamReader(fullimagepath, true);
+                StreamWriter sw = new StreamWriter(fullimagepath, true);
 
 
 
@@ -139,7 +126,7 @@ namespace Proyecto_Alpha
             }
             else
             {
-                StreamReader sr = new StreamReader(fullimagepath, true);
+               // StreamReader sr = new StreamReader(fullimagepath, true);
                 StreamWriter sw = new StreamWriter(fullimagepath, true);
 
                 sw.WriteLine("Bienvenido al cine SOYACITY");
@@ -160,26 +147,11 @@ namespace Proyecto_Alpha
                 sw.WriteLine("---------------------------------------------------------------------------");
 
 
-
-
-
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-
-                foreach (ListViewItem item in lslButaca.Items)
-                {
-                    sr.ReadLine();
-                }
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.ReadLine();
-                sr.Close();
                 sw.Close();
 
 
             }
+            Process.Start(fullimagepath);
             musica.controls.stop();
         }
 
