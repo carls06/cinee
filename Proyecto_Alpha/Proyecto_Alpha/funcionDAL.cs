@@ -8,34 +8,34 @@ namespace Proyecto_Alpha
 {
     class funcionDAL
     {
-        public static List<funcion> mostrartodo()
-        {
-            List<funcion> lista = new List<funcion>();
+        //public static List<funcion> mostrartodo()
+        //{
+        //    List<funcion> lista = new List<funcion>();
 
-            using (SqlConnection coneccion = conexion.ObtenerConexion())
-            {
-                SqlCommand comando = new SqlCommand(string.Format("select fecha, nombrefu, descripcion, ruta from funcion"), coneccion);
-                SqlDataReader reader = comando.ExecuteReader();
+        //    using (SqlConnection coneccion = conexion.ObtenerConexion())
+        //    {
+        //        SqlCommand comando = new SqlCommand(string.Format("select fecha, nombrefu, descripcion, ruta from funcion"), coneccion);
+        //        SqlDataReader reader = comando.ExecuteReader();
 
-                while (reader.Read())
-                {
+        //        while (reader.Read())
+        //        {
 
-                    funcion ffuncion = new funcion();
-                    ffuncion.fecha = reader.GetDateTime(0);
-                    ffuncion.nombrefu = reader.GetString(1);
-                    ffuncion.descripcion = reader.GetString(2);
-                    ffuncion.ruta = reader.GetString(3);
-
-
+        //            funcion ffuncion = new funcion();
+        //            ffuncion.fecha = reader.GetDateTime(0);
+        //            ffuncion.nombrefu = reader.GetString(1);
+        //            ffuncion.descripcion = reader.GetString(2);
+        //            ffuncion.ruta = reader.GetString(3);
 
 
-                    lista.Add(ffuncion);
-                }
-                coneccion.Close();
-                return lista;
 
-            }
-        }
+
+        //            lista.Add(ffuncion);
+        //        }
+        //        coneccion.Close();
+        //        return lista;
+
+        //    }
+        //}
 
 
         //public static List<funcion> BuscarProductos(String pNombre)

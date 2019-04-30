@@ -56,7 +56,6 @@
             this.nombrebu = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Precio = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.tipo = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.B10 = new System.Windows.Forms.CheckBox();
             this.B9 = new System.Windows.Forms.CheckBox();
             this.B6 = new System.Windows.Forms.CheckBox();
@@ -120,23 +119,31 @@
             this.lblMoney = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.btnEliminarF = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.agregarPeliculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.panel1.SuspendLayout();
+            this.panel2.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
             resources.ApplyResources(this.menuStrip1, "menuStrip1");
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.MenuStrip1_ItemClicked);
             // 
             // menuToolStripMenuItem
             // 
             this.menuToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.agregarPeliculaToolStripMenuItem,
             this.agregarEventoToolStripMenuItem,
             this.cerrarSesionToolStripMenuItem});
             resources.ApplyResources(this.menuToolStripMenuItem, "menuToolStripMenuItem");
@@ -313,14 +320,6 @@
             this.tipo.ForeColor = System.Drawing.Color.Black;
             this.tipo.Name = "tipo";
             this.tipo.Click += new System.EventHandler(this.label3_Click);
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Proyecto_Alpha.Properties.Resources.fondo;
-            resources.ApplyResources(this.pictureBox1, "pictureBox1");
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // B10
             // 
@@ -820,97 +819,127 @@
             this.btnEliminarF.UseVisualStyleBackColor = true;
             this.btnEliminarF.Click += new System.EventHandler(this.btnEliminarF_Click);
             // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.SystemColors.AppWorkspace;
+            this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel1.Controls.Add(this.G1);
+            this.panel1.Controls.Add(this.G2);
+            this.panel1.Controls.Add(this.G3);
+            this.panel1.Controls.Add(this.G4);
+            this.panel1.Controls.Add(this.G5);
+            this.panel1.Controls.Add(this.C5);
+            this.panel1.Controls.Add(this.D6);
+            this.panel1.Controls.Add(this.C4);
+            this.panel1.Controls.Add(this.E5);
+            this.panel1.Controls.Add(this.C3);
+            this.panel1.Controls.Add(this.D7);
+            this.panel1.Controls.Add(this.C2);
+            this.panel1.Controls.Add(this.E6);
+            this.panel1.Controls.Add(this.C1);
+            this.panel1.Controls.Add(this.C10);
+            this.panel1.Controls.Add(this.D8);
+            this.panel1.Controls.Add(this.C9);
+            this.panel1.Controls.Add(this.F4);
+            this.panel1.Controls.Add(this.C8);
+            this.panel1.Controls.Add(this.D5);
+            this.panel1.Controls.Add(this.C7);
+            this.panel1.Controls.Add(this.E7);
+            this.panel1.Controls.Add(this.C6);
+            this.panel1.Controls.Add(this.F3);
+            this.panel1.Controls.Add(this.B5);
+            this.panel1.Controls.Add(this.E8);
+            this.panel1.Controls.Add(this.B4);
+            this.panel1.Controls.Add(this.G16);
+            this.panel1.Controls.Add(this.B3);
+            this.panel1.Controls.Add(this.G15);
+            this.panel1.Controls.Add(this.B2);
+            this.panel1.Controls.Add(this.E4);
+            this.panel1.Controls.Add(this.B1);
+            this.panel1.Controls.Add(this.F2);
+            this.panel1.Controls.Add(this.B8);
+            this.panel1.Controls.Add(this.E1);
+            this.panel1.Controls.Add(this.B7);
+            this.panel1.Controls.Add(this.F1);
+            this.panel1.Controls.Add(this.B6);
+            this.panel1.Controls.Add(this.E2);
+            this.panel1.Controls.Add(this.B9);
+            this.panel1.Controls.Add(this.E3);
+            this.panel1.Controls.Add(this.B10);
+            this.panel1.Controls.Add(this.G14);
+            this.panel1.Controls.Add(this.G13);
+            this.panel1.Controls.Add(this.G9);
+            this.panel1.Controls.Add(this.G6);
+            this.panel1.Controls.Add(this.A10);
+            this.panel1.Controls.Add(this.D4);
+            this.panel1.Controls.Add(this.A9);
+            this.panel1.Controls.Add(this.G10);
+            this.panel1.Controls.Add(this.A8);
+            this.panel1.Controls.Add(this.D3);
+            this.panel1.Controls.Add(this.A7);
+            this.panel1.Controls.Add(this.G8);
+            this.panel1.Controls.Add(this.A6);
+            this.panel1.Controls.Add(this.D2);
+            this.panel1.Controls.Add(this.A5);
+            this.panel1.Controls.Add(this.G12);
+            this.panel1.Controls.Add(this.A4);
+            this.panel1.Controls.Add(this.D1);
+            this.panel1.Controls.Add(this.A3);
+            this.panel1.Controls.Add(this.G11);
+            this.panel1.Controls.Add(this.A2);
+            this.panel1.Controls.Add(this.G7);
+            this.panel1.Controls.Add(this.A1);
+            resources.ApplyResources(this.panel1, "panel1");
+            this.panel1.Name = "panel1";
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel2.Controls.Add(this.label5);
+            resources.ApplyResources(this.panel2, "panel2");
+            this.panel2.Name = "panel2";
+            // 
+            // label5
+            // 
+            resources.ApplyResources(this.label5, "label5");
+            this.label5.Name = "label5";
+            // 
+            // agregarPeliculaToolStripMenuItem
+            // 
+            this.agregarPeliculaToolStripMenuItem.Name = "agregarPeliculaToolStripMenuItem";
+            resources.ApplyResources(this.agregarPeliculaToolStripMenuItem, "agregarPeliculaToolStripMenuItem");
+            this.agregarPeliculaToolStripMenuItem.Click += new System.EventHandler(this.AgregarPeliculaToolStripMenuItem_Click);
+            // 
             // form
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ControlBox = false;
+            this.Controls.Add(this.panel2);
+            this.Controls.Add(this.panel1);
             this.Controls.Add(this.btnEliminarF);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.G13);
-            this.Controls.Add(this.G14);
-            this.Controls.Add(this.G15);
-            this.Controls.Add(this.G16);
-            this.Controls.Add(this.G7);
-            this.Controls.Add(this.G8);
-            this.Controls.Add(this.G9);
-            this.Controls.Add(this.G10);
-            this.Controls.Add(this.G11);
-            this.Controls.Add(this.G12);
-            this.Controls.Add(this.G1);
-            this.Controls.Add(this.G2);
-            this.Controls.Add(this.G3);
-            this.Controls.Add(this.G4);
-            this.Controls.Add(this.G5);
-            this.Controls.Add(this.G6);
-            this.Controls.Add(this.F3);
-            this.Controls.Add(this.F4);
-            this.Controls.Add(this.F1);
-            this.Controls.Add(this.F2);
-            this.Controls.Add(this.E5);
-            this.Controls.Add(this.E6);
-            this.Controls.Add(this.E7);
-            this.Controls.Add(this.E8);
-            this.Controls.Add(this.E4);
-            this.Controls.Add(this.E1);
-            this.Controls.Add(this.E2);
-            this.Controls.Add(this.E3);
-            this.Controls.Add(this.D6);
-            this.Controls.Add(this.D7);
-            this.Controls.Add(this.D8);
-            this.Controls.Add(this.D4);
-            this.Controls.Add(this.D3);
-            this.Controls.Add(this.D2);
-            this.Controls.Add(this.D1);
-            this.Controls.Add(this.D5);
-            this.Controls.Add(this.C5);
-            this.Controls.Add(this.C4);
-            this.Controls.Add(this.C3);
-            this.Controls.Add(this.C2);
-            this.Controls.Add(this.C1);
-            this.Controls.Add(this.C10);
-            this.Controls.Add(this.C9);
-            this.Controls.Add(this.C8);
-            this.Controls.Add(this.C7);
-            this.Controls.Add(this.C6);
-            this.Controls.Add(this.B5);
-            this.Controls.Add(this.B4);
-            this.Controls.Add(this.B3);
-            this.Controls.Add(this.B2);
-            this.Controls.Add(this.B1);
-            this.Controls.Add(this.B8);
-            this.Controls.Add(this.B7);
-            this.Controls.Add(this.B6);
-            this.Controls.Add(this.B9);
-            this.Controls.Add(this.B10);
             this.Controls.Add(this.tipo);
             this.Controls.Add(this.lslButaca);
             this.Controls.Add(this.listBox1);
-            this.Controls.Add(this.A10);
-            this.Controls.Add(this.A9);
-            this.Controls.Add(this.A8);
-            this.Controls.Add(this.A7);
-            this.Controls.Add(this.A6);
-            this.Controls.Add(this.A5);
-            this.Controls.Add(this.A4);
-            this.Controls.Add(this.A3);
-            this.Controls.Add(this.A2);
-            this.Controls.Add(this.A1);
             this.Controls.Add(this.menuStrip1);
-            this.Controls.Add(this.pictureBox1);
             this.ForeColor = System.Drawing.Color.Transparent;
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "form";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.panel1.ResumeLayout(false);
+            this.panel1.PerformLayout();
+            this.panel2.ResumeLayout(false);
+            this.panel2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -942,7 +971,6 @@
         private System.Windows.Forms.ListView lslButaca;
         private System.Windows.Forms.ColumnHeader nombrebu;
         private System.Windows.Forms.Label tipo;
-        private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.CheckBox B10;
         private System.Windows.Forms.CheckBox B9;
         private System.Windows.Forms.CheckBox B6;
@@ -1008,6 +1036,10 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.ToolStripMenuItem cerrarSesionToolStripMenuItem;
         private System.Windows.Forms.Button btnEliminarF;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Panel panel2;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.ToolStripMenuItem agregarPeliculaToolStripMenuItem;
     }
 }
 

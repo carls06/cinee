@@ -33,6 +33,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.btnbmusic = new System.Windows.Forms.Button();
+            this.label5 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.txtDescrip = new System.Windows.Forms.TextBox();
             this.dateHora = new System.Windows.Forms.DateTimePicker();
@@ -43,13 +45,11 @@
             this.Fecha = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Hora = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.Descrip = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.ruta = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.btnEliminar = new System.Windows.Forms.Button();
             this.btnAddEveneto = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
-            this.label5 = new System.Windows.Forms.Label();
-            this.btnbmusic = new System.Windows.Forms.Button();
-            this.ruta = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -57,36 +57,40 @@
             // 
             this.dateFecha.Checked = false;
             this.dateFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.dateFecha.Location = new System.Drawing.Point(154, 76);
+            this.dateFecha.Location = new System.Drawing.Point(205, 94);
+            this.dateFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateFecha.Name = "dateFecha";
             this.dateFecha.ShowUpDown = true;
-            this.dateFecha.Size = new System.Drawing.Size(95, 20);
+            this.dateFecha.Size = new System.Drawing.Size(125, 22);
             this.dateFecha.TabIndex = 1;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(26, 33);
+            this.label1.Location = new System.Drawing.Point(35, 41);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(117, 13);
+            this.label1.Size = new System.Drawing.Size(155, 17);
             this.label1.TabIndex = 3;
             this.label1.Text = "Nombre de la Función: ";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 76);
+            this.label2.Location = new System.Drawing.Point(35, 94);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(115, 13);
+            this.label2.Size = new System.Drawing.Size(151, 17);
             this.label2.TabIndex = 4;
             this.label2.Text = "Elija Fecha de Función";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(89, 113);
+            this.label3.Location = new System.Drawing.Point(119, 139);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(52, 13);
+            this.label3.Size = new System.Drawing.Size(69, 17);
             this.label3.TabIndex = 5;
             this.label3.Text = "Elija Hora";
             // 
@@ -105,51 +109,79 @@
             this.groupBox1.Controls.Add(this.label3);
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dateFecha);
-            this.groupBox1.Location = new System.Drawing.Point(12, 35);
+            this.groupBox1.Location = new System.Drawing.Point(16, 43);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(577, 380);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Size = new System.Drawing.Size(769, 468);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Agregando Funciones";
             // 
+            // btnbmusic
+            // 
+            this.btnbmusic.Location = new System.Drawing.Point(377, 188);
+            this.btnbmusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbmusic.Name = "btnbmusic";
+            this.btnbmusic.Size = new System.Drawing.Size(100, 28);
+            this.btnbmusic.TabIndex = 18;
+            this.btnbmusic.Text = "Buscar";
+            this.btnbmusic.UseVisualStyleBackColor = true;
+            this.btnbmusic.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(225, 188);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(107, 17);
+            this.label5.TabIndex = 17;
+            this.label5.Text = "Agregar musica";
+            // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(280, 33);
+            this.label4.Location = new System.Drawing.Point(373, 41);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 13);
+            this.label4.Size = new System.Drawing.Size(86, 17);
             this.label4.TabIndex = 16;
             this.label4.Text = "Descripcion:";
             // 
             // txtDescrip
             // 
-            this.txtDescrip.Location = new System.Drawing.Point(283, 58);
+            this.txtDescrip.Location = new System.Drawing.Point(377, 71);
+            this.txtDescrip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtDescrip.Multiline = true;
             this.txtDescrip.Name = "txtDescrip";
-            this.txtDescrip.Size = new System.Drawing.Size(181, 75);
+            this.txtDescrip.Size = new System.Drawing.Size(240, 91);
             this.txtDescrip.TabIndex = 15;
             // 
             // dateHora
             // 
             this.dateHora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
-            this.dateHora.Location = new System.Drawing.Point(154, 113);
+            this.dateHora.Location = new System.Drawing.Point(205, 139);
+            this.dateHora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateHora.Name = "dateHora";
             this.dateHora.ShowUpDown = true;
-            this.dateHora.Size = new System.Drawing.Size(95, 20);
+            this.dateHora.Size = new System.Drawing.Size(125, 22);
             this.dateHora.TabIndex = 14;
             // 
             // txtFuncion
             // 
-            this.txtFuncion.Location = new System.Drawing.Point(149, 26);
+            this.txtFuncion.Location = new System.Drawing.Point(199, 32);
+            this.txtFuncion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtFuncion.Name = "txtFuncion";
-            this.txtFuncion.Size = new System.Drawing.Size(100, 20);
+            this.txtFuncion.Size = new System.Drawing.Size(132, 22);
             this.txtFuncion.TabIndex = 13;
             // 
             // btnAgre
             // 
-            this.btnAgre.Location = new System.Drawing.Point(496, 216);
+            this.btnAgre.Location = new System.Drawing.Point(661, 266);
+            this.btnAgre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAgre.Name = "btnAgre";
-            this.btnAgre.Size = new System.Drawing.Size(75, 23);
+            this.btnAgre.Size = new System.Drawing.Size(100, 28);
             this.btnAgre.TabIndex = 12;
             this.btnAgre.Text = "Agregar";
             this.btnAgre.UseVisualStyleBackColor = true;
@@ -163,9 +195,10 @@
             this.Hora,
             this.Descrip,
             this.ruta});
-            this.lstFecha.Location = new System.Drawing.Point(6, 216);
+            this.lstFecha.Location = new System.Drawing.Point(8, 266);
+            this.lstFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.lstFecha.Name = "lstFecha";
-            this.lstFecha.Size = new System.Drawing.Size(483, 147);
+            this.lstFecha.Size = new System.Drawing.Size(643, 180);
             this.lstFecha.TabIndex = 11;
             this.lstFecha.UseCompatibleStateImageBehavior = false;
             this.lstFecha.View = System.Windows.Forms.View.Details;
@@ -191,11 +224,16 @@
             this.Descrip.Text = "Descripción";
             this.Descrip.Width = 82;
             // 
+            // ruta
+            // 
+            this.ruta.Text = "ruta";
+            // 
             // btnEliminar
             // 
-            this.btnEliminar.Location = new System.Drawing.Point(495, 245);
+            this.btnEliminar.Location = new System.Drawing.Point(660, 302);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEliminar.Name = "btnEliminar";
-            this.btnEliminar.Size = new System.Drawing.Size(75, 23);
+            this.btnEliminar.Size = new System.Drawing.Size(100, 28);
             this.btnEliminar.TabIndex = 8;
             this.btnEliminar.Text = "Eliminar";
             this.btnEliminar.UseVisualStyleBackColor = true;
@@ -203,9 +241,10 @@
             // 
             // btnAddEveneto
             // 
-            this.btnAddEveneto.Location = new System.Drawing.Point(414, 428);
+            this.btnAddEveneto.Location = new System.Drawing.Point(552, 527);
+            this.btnAddEveneto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnAddEveneto.Name = "btnAddEveneto";
-            this.btnAddEveneto.Size = new System.Drawing.Size(75, 23);
+            this.btnAddEveneto.Size = new System.Drawing.Size(100, 28);
             this.btnAddEveneto.TabIndex = 8;
             this.btnAddEveneto.Text = "Finalizar";
             this.btnAddEveneto.UseVisualStyleBackColor = true;
@@ -214,48 +253,27 @@
             // listBox1
             // 
             this.listBox1.FormattingEnabled = true;
-            this.listBox1.Location = new System.Drawing.Point(334, 12);
+            this.listBox1.ItemHeight = 16;
+            this.listBox1.Location = new System.Drawing.Point(445, 15);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(139, 56);
+            this.listBox1.Size = new System.Drawing.Size(184, 68);
             this.listBox1.TabIndex = 15;
-            this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(169, 153);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(80, 13);
-            this.label5.TabIndex = 17;
-            this.label5.Text = "Agregar musica";
-            // 
-            // btnbmusic
-            // 
-            this.btnbmusic.Location = new System.Drawing.Point(283, 153);
-            this.btnbmusic.Name = "btnbmusic";
-            this.btnbmusic.Size = new System.Drawing.Size(75, 23);
-            this.btnbmusic.TabIndex = 18;
-            this.btnbmusic.Text = "Buscar";
-            this.btnbmusic.UseVisualStyleBackColor = true;
-            this.btnbmusic.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // ruta
-            // 
-            this.ruta.Text = "ruta";
-            // 
             // Agregar_Evento
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(650, 463);
+            this.ClientSize = new System.Drawing.Size(867, 570);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnAddEveneto);
             this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Agregar_Evento";
             this.Text = "Agregar_Evento";
             this.Load += new System.EventHandler(this.Agregar_Evento_Load);

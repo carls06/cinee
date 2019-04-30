@@ -1,0 +1,48 @@
+Bienvenido al cine SOYACITY
+
+La cantidad de Asientos comprados son: 10
+
+Los asientos comprados son
+ G1
+ G2
+ G3
+ G4
+ G5
+ G6
+ G7
+ G8
+ G9
+ G10
+Fechan y hora: 
+ Total: 40 $
+---------------------------------------------------------------------------
+Bienvenido al cine SOYACITY
+
+La cantidad de Asientos comprados son: 10
+
+Los asientos comprados son
+ G1
+ G2
+ G3
+ G4
+ G5
+ G6
+ G7
+ G8
+ G9
+ G10
+Fechan y hora: 30/4/2019 13:54:00
+ Total: 40 $
+---------------------------------------------------------------------------
+Bienvenido al cine SOYACITY
+
+La cantidad de Asientos comprados son: 4
+
+Los asientos comprados son
+ D5
+ D6
+ D7
+ D8
+Fechan y hora: 29/4/2019 00:54:00
+ Total: 16 $
+---------------------------------------------------------------------------

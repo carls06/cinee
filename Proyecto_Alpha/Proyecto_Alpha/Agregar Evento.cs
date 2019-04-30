@@ -46,16 +46,20 @@ namespace Proyecto_Alpha
 
         private void btnAgre_Click(object sender, EventArgs e)
         {
-            if (txtFuncion.Text == "" || txtDescrip.Text == "") { }
+
+
+            
+            if (txtFuncion.Text == "" || txtDescrip.Text == "") { MessageBox.Show("Debe agregar descripcion y nombre de pelicula"); }
             else
             {
                 string s = dateFecha.Value.Date.ToString("d/M/yyyy") + " " + dateHora.Value.ToString("hh:mm:00 tt");
                 if (!listBox1.Items.Contains(s))
                 {
                     string[] c = { txtFuncion.Text, dateFecha.Value.Date.ToString("yyyy/MM/dd"), dateHora.Value.Hour + ":" + dateHora.Value.Minute + ":00", txtDescrip.Text, DireccionMusica };
-                    ListViewItem lista = new ListViewItem(c);
+                    ListViewItem  lista = new ListViewItem(c);
                     lstFecha.Items.Add(lista);
-                }
+                    
+                }                
                 else
                     MessageBox.Show("Fecha ya reservada");
 
