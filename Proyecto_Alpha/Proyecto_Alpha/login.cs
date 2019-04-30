@@ -40,51 +40,114 @@ namespace Proyecto_Alpha
 
         public void inicio() {
 
-            
-                if (txtUsuario.Text == "")
+           
+            //    if (txtUsuario.Text == null)
+            //    {
+                    
+            //    }
+            //    else
+            //    {
+            //        if (txtContraseña.Text == null)
+            //        {
+            //        }
+            //        else
+            //        {
+            //            string s = "select logUsuario, contraseña, Cargo from usuario where logUsuario like '" + txtUsuario.Text + "' and contraseña like '" + txtContraseña.Text + "'";
+            //            SqlCommand comander = new SqlCommand(s, conn);
+            //            using (SqlDataReader read = comander.ExecuteReader())
+            //            {
+            //                while (read.Read())
+            //                {
+            //                    if (txtUsuario.Text == read["logUsuario"].ToString() && txtContraseña.Text == read["contraseña"].ToString() && read["cargo"].ToString() == "Admin")
+            //                    {
+            //                        MessageBox.Show("Hola Admin");
+            //                        form fo = new form();
+
+            //                        tipo = "Admin";
+            //                        fo.Show();
+
+
+            //                        this.Hide();
+
+            //                    }
+            //                    else
+            //                    {
+            //                        MessageBox.Show("Hola user");
+            //                        form form = new form();
+            //                        tipo = "User";
+            //                        form.Show();
+
+            //                        this.Hide();
+            //                    }
+
+
+            //                }
+            //            }
+            //        }
+            //    }
+            //}
+
+            try
+            {
+                if (txtUsuario.Text != null)
                 {
-                }
-                else
-                {
-                    if (txtContraseña.Text == "")
+
+
+
+                    if (txtContraseña.Text != null)
                     {
-                    }
-                    else
-                    {
+
+
+
                         string s = "select logUsuario, contraseña, Cargo from usuario where logUsuario like '" + txtUsuario.Text + "' and contraseña like '" + txtContraseña.Text + "'";
                         SqlCommand comander = new SqlCommand(s, conn);
-                        using (SqlDataReader read = comander.ExecuteReader())
+                        //using (SqlDataReader read = comander.ExecuteReader())
+                        SqlDataAdapter adapt = new SqlDataAdapter(comander);
+                        DataTable prueba = new DataTable();
+                        adapt.Fill(prueba);
                         {
-                            while (read.Read())
+
+
+
+                            //  while (read.Read())
+
+                            // if (txtUsuario.Text == read["logUsuario"].ToString() && txtContraseña.Text == read["contraseña"].ToString() && read["cargo"].ToString() == "Admin")
+                            if ((txtUsuario.Text == prueba.Rows[0][0].ToString()) || (txtContraseña.Text == prueba.Rows[0][0].ToString()))
                             {
-                                if (txtUsuario.Text == read["logUsuario"].ToString() && txtContraseña.Text == read["contraseña"].ToString() && read["cargo"].ToString() == "Admin")
-                                {
-                                    MessageBox.Show("Hola Admin");
-                                    form fo = new form();
 
-                                    tipo = "Admin";
-                                    fo.Show();
+                                MessageBox.Show("BIENVENIDO!", "HOLA ADMIN");
+
+                                form fo = new form();
+
+                                tipo = "Admin";
+                                fo.Show();
 
 
-                                    this.Hide();
-
-                                }
-                                else
-                                {
-                                    MessageBox.Show("Hola user");
-                                    form form = new form();
-                                    tipo = "User";
-                                    form.Show();
-
-                                    this.Hide();
-                                }
-
+                                this.Hide();
 
                             }
+
+                            else
+                            {
+
+                                MessageBox.Show("BIENVENIDO!", "HOLA USER");
+                                form form = new form();
+                                tipo = "User";
+                                form.Show();
+
+                                this.Hide();
+                            }
+
                         }
+
                     }
                 }
-            
+            }
+
+            catch
+            {
+                MessageBox.Show("Error! Su contraseña y/o usuario son invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
            
         }
 
@@ -92,6 +155,7 @@ namespace Proyecto_Alpha
         
         private void button1_Click(object sender, EventArgs e)
         {
+             
             inicio();
         }
 
