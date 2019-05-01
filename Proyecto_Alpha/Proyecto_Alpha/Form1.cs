@@ -22,10 +22,7 @@ namespace Proyecto_Alpha
         private ListViewItem lista;
         private SqlConnection conn;
         private string sCn;
-        //Defino una variable de tipo Connection
-        //private SqlConnection conn1;
-        //Defino una variable de tipo DataAdapter
-        //private string sCn1;
+        
         private SqlCommand insert;
         //instacio un variable OleDbConection
         OleDbConnection cnn = new OleDbConnection();
@@ -46,14 +43,9 @@ namespace Proyecto_Alpha
             conn = new SqlConnection(sCn);
             //abro la conexión
             conn.Open();
-            //cnn.ConnectionString = @"PROVIDER=SQLOLEDB;server= DESKTOP-F9FC1KG\\MSSQL; database= teatro ; Integrated Security=true;";
-            //conexion cn1 = new conexion();
-            //cn1.conec();
-            //sCn1 = cn1.cadena;
-            //conn1 = new SqlConnection(sCn1);
-            //conn1.Open();
+            
 
-
+            
 
         }
 
@@ -62,8 +54,8 @@ namespace Proyecto_Alpha
             Agregar_Evento n = new Agregar_Evento();
             n.Show();
         }
+
         // cambiar la direccion por cada computadora
-       
         Image Rojo = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
         Image Negro = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
@@ -95,13 +87,13 @@ namespace Proyecto_Alpha
 
 
 
-            // MessageBox.Show(fullimagepath);
+            
             if (lslButaca.Items.Count==0) { MessageBox.Show("Debe Comprar asientos"); }
             else {
                 if (File.Exists(fullimagepath))
                 {
 
-                    //  StreamReader sr = new StreamReader(fullimagepath, true);
+                    
                     StreamWriter sw = new StreamWriter(fullimagepath, true);
 
 
@@ -127,7 +119,7 @@ namespace Proyecto_Alpha
                 }
                 else
                 {
-                    // StreamReader sr = new StreamReader(fullimagepath, true);
+                   
                     StreamWriter sw = new StreamWriter(fullimagepath, true);
 
                     sw.WriteLine("Bienvenido al cine SOYACITY");
@@ -273,7 +265,7 @@ namespace Proyecto_Alpha
         private void cmbFuncion_SelectedIndexChanged(object sender, EventArgs e)
         {
 
-           // MessageBox.Show(ruta);
+          
             if (ruta == null) {
                 cmbFuncion.Text = " ";
             }
@@ -292,13 +284,20 @@ namespace Proyecto_Alpha
         private void Form1_Load(object sender, EventArgs e)
         {
             tipo.Text = login.tipo;
-            if (tipo.Text == " Admin")
+            if (tipo.Text == "Admin")
             {
                 menuToolStripMenuItem.Visible = true;
+                agregarEventoToolStripMenuItem.Visible = false;
                 btnEliminarF.Visible = true;
             }
             else
+            {
+                menuToolStripMenuItem.Visible = true;
                 agregarEventoToolStripMenuItem.Visible = false;
+                agregarPeliculaToolStripMenuItem.Visible = false;
+                btnEliminarF.Visible = false;
+
+            }
 
             SqlCommand comander = new SqlCommand("SELECT nombreFu,ruta from funcion", conn);
             using (SqlDataReader read = comander.ExecuteReader())
@@ -309,7 +308,7 @@ namespace Proyecto_Alpha
                     {
                         cmbFuncion.Items.Add(read["nombreFu"].ToString());
 
-                        //ruta = read["ruta"].ToString();
+                        
                     }
                 }
                 

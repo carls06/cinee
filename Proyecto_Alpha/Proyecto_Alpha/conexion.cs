@@ -14,7 +14,7 @@ namespace Proyecto_Alpha
         public string servidor, usuario, clave, db, cadena;
         public void conec()
         {
-            servidor = "SQL5008.site4now.net,1433";// "DESKTOP-F9FC1KG\\MSSQL";
+            servidor = "SQL5008.site4now.net,1433";
             db = "DB_A464EC_cine";
             usuario = "DB_A464EC_cine_admin";
             clave = "hola1234";
@@ -22,16 +22,6 @@ namespace Proyecto_Alpha
 
          
         }
-
-
-        //public static SqlConnection ObtenerConexion()
-        //{
-        //    SqlConnection Conn = new SqlConnection("Data Source=DESKTOP-F9FC1KG\\MSSQL;Initial Catalog=teatro;Integrated Security=True");
-        //    Conn.Open();
-        //    return Conn;
-
-        //}
-
 
     }
 }

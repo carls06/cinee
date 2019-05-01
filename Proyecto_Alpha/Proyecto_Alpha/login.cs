@@ -18,7 +18,7 @@ namespace Proyecto_Alpha
     {
         private SqlConnection conn;
         private string sCn;
-        OleDbConnection cnn = new OleDbConnection();
+        
         public login()
         {
             InitializeComponent();
@@ -27,10 +27,10 @@ namespace Proyecto_Alpha
             sCn = cn.cadena;
             conn = new SqlConnection(sCn);
             conn.Open();
-            //cnn.ConnectionString = @"Provider=sqloledb;Data Source=SQL5008.site4now.net,1433;Initial Catalog=DB_A464EC_cine;User Id=DB_A464EC_cine_admin;Password=hola1234;";
-
-
+           
         }
+
+        //metodos para mover a cualquier lado de la pandalla el form
 
         [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
         private extern static void ReleaseCapture();
@@ -38,54 +38,8 @@ namespace Proyecto_Alpha
         private extern static void SendMessage(System.IntPtr hwnd, int wmsg, int wparam, int lparam);
 
 
-        public void inicio() {
-
-           
-            //    if (txtUsuario.Text == null)
-            //    {
-                    
-            //    }
-            //    else
-            //    {
-            //        if (txtContraseña.Text == null)
-            //        {
-            //        }
-            //        else
-            //        {
-            //            string s = "select logUsuario, contraseña, Cargo from usuario where logUsuario like '" + txtUsuario.Text + "' and contraseña like '" + txtContraseña.Text + "'";
-            //            SqlCommand comander = new SqlCommand(s, conn);
-            //            using (SqlDataReader read = comander.ExecuteReader())
-            //            {
-            //                while (read.Read())
-            //                {
-            //                    if (txtUsuario.Text == read["logUsuario"].ToString() && txtContraseña.Text == read["contraseña"].ToString() && read["cargo"].ToString() == "Admin")
-            //                    {
-            //                        MessageBox.Show("Hola Admin");
-            //                        form fo = new form();
-
-            //                        tipo = "Admin";
-            //                        fo.Show();
-
-
-            //                        this.Hide();
-
-            //                    }
-            //                    else
-            //                    {
-            //                        MessageBox.Show("Hola user");
-            //                        form form = new form();
-            //                        tipo = "User";
-            //                        form.Show();
-
-            //                        this.Hide();
-            //                    }
-
-
-            //                }
-            //            }
-            //        }
-            //    }
-            //}
+        public void inicio()
+        {
 
             try
             {
@@ -93,42 +47,37 @@ namespace Proyecto_Alpha
                 {
 
 
-
                     if (txtContraseña.Text != null)
                     {
 
 
-
                         string s = "select logUsuario, contraseña, Cargo from usuario where logUsuario like '" + txtUsuario.Text + "' and contraseña like '" + txtContraseña.Text + "'";
                         SqlCommand comander = new SqlCommand(s, conn);
-                        //using (SqlDataReader read = comander.ExecuteReader())
-                        SqlDataAdapter adapt = new SqlDataAdapter(comander);
-                        DataTable prueba = new DataTable();
-                        adapt.Fill(prueba);
+                       
+                        
+
+                            SqlDataAdapter adapt = new SqlDataAdapter(comander);
+                            DataTable prueba = new DataTable();
+                            adapt.Fill(prueba);
+
+                              
+                        if ((txtUsuario.Text == prueba.Rows[0][0].ToString()) && (txtContraseña.Text == prueba.Rows[0][1].ToString()))
                         {
 
-
-
-                            //  while (read.Read())
-
-                            // if (txtUsuario.Text == read["logUsuario"].ToString() && txtContraseña.Text == read["contraseña"].ToString() && read["cargo"].ToString() == "Admin")
-                            if ((txtUsuario.Text == prueba.Rows[0][0].ToString()) || (txtContraseña.Text == prueba.Rows[0][0].ToString()))
-                            {
+                            if (prueba.Rows[0][2].ToString()== "Admin"){
 
                                 MessageBox.Show("BIENVENIDO!", "HOLA ADMIN");
+
 
                                 form fo = new form();
 
                                 tipo = "Admin";
                                 fo.Show();
 
-
                                 this.Hide();
-
-                            }
-
-                            else
-                            {
+                            }       
+                             else
+                             {
 
                                 MessageBox.Show("BIENVENIDO!", "HOLA USER");
                                 form form = new form();
@@ -136,40 +85,40 @@ namespace Proyecto_Alpha
                                 form.Show();
 
                                 this.Hide();
-                            }
-
+                             }
                         }
-
+  
                     }
+ 
                 }
             }
+            
 
             catch
             {
                 MessageBox.Show("Error! Su contraseña y/o usuario son invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-           
+
         }
 
         public static string tipo;
         
         private void button1_Click(object sender, EventArgs e)
         {
-             
-            inicio();
+                inicio();
         }
 
         private void login_Load(object sender, EventArgs e)
         {
-            //conn.Open();
+            
         }
        
-
-        
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }
+
+        //para iniciar sesion con un enter
         private void txtContraseña_KeyPress(object sender, System.Windows.Forms.KeyPressEventArgs e)
         {
             if (e.KeyChar == (char)13)
@@ -224,14 +173,18 @@ namespace Proyecto_Alpha
             }
         }
 
+        //eventos que permiten mover de posicion el form
         private void Login_MouseDown(object sender, MouseEventArgs e)
         {
+
+           
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
         private void Panel3_MouseDown(object sender, MouseEventArgs e)
         {
+           
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }

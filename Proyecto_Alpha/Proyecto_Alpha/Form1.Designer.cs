@@ -32,6 +32,7 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.menuToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.agregarPeliculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agregarEventoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cerrarSesionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.A1 = new System.Windows.Forms.CheckBox();
@@ -122,7 +123,6 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label5 = new System.Windows.Forms.Label();
-            this.agregarPeliculaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
@@ -132,7 +132,7 @@
             // 
             // menuStrip1
             // 
-            this.menuStrip1.BackColor = System.Drawing.SystemColors.Control;
+            this.menuStrip1.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.menuToolStripMenuItem});
@@ -151,6 +151,13 @@
             this.menuToolStripMenuItem.Name = "menuToolStripMenuItem";
             this.menuToolStripMenuItem.Click += new System.EventHandler(this.menuToolStripMenuItem_Click);
             // 
+            // agregarPeliculaToolStripMenuItem
+            // 
+            this.agregarPeliculaToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
+            this.agregarPeliculaToolStripMenuItem.Name = "agregarPeliculaToolStripMenuItem";
+            resources.ApplyResources(this.agregarPeliculaToolStripMenuItem, "agregarPeliculaToolStripMenuItem");
+            this.agregarPeliculaToolStripMenuItem.Click += new System.EventHandler(this.AgregarPeliculaToolStripMenuItem_Click);
+            // 
             // agregarEventoToolStripMenuItem
             // 
             this.agregarEventoToolStripMenuItem.Name = "agregarEventoToolStripMenuItem";
@@ -159,6 +166,7 @@
             // 
             // cerrarSesionToolStripMenuItem
             // 
+            this.cerrarSesionToolStripMenuItem.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.cerrarSesionToolStripMenuItem.Name = "cerrarSesionToolStripMenuItem";
             resources.ApplyResources(this.cerrarSesionToolStripMenuItem, "cerrarSesionToolStripMenuItem");
             this.cerrarSesionToolStripMenuItem.Click += new System.EventHandler(this.cerrarSesionToolStripMenuItem_Click);
@@ -894,7 +902,7 @@
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ButtonShadow;
+            this.panel2.BackColor = System.Drawing.SystemColors.WindowText;
             this.panel2.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel2.Controls.Add(this.label5);
             resources.ApplyResources(this.panel2, "panel2");
@@ -905,16 +913,11 @@
             resources.ApplyResources(this.label5, "label5");
             this.label5.Name = "label5";
             // 
-            // agregarPeliculaToolStripMenuItem
-            // 
-            this.agregarPeliculaToolStripMenuItem.Name = "agregarPeliculaToolStripMenuItem";
-            resources.ApplyResources(this.agregarPeliculaToolStripMenuItem, "agregarPeliculaToolStripMenuItem");
-            this.agregarPeliculaToolStripMenuItem.Click += new System.EventHandler(this.AgregarPeliculaToolStripMenuItem_Click);
-            // 
             // form
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ControlBox = false;
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.panel1);

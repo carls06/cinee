@@ -50,6 +50,7 @@
             this.btnAddEveneto = new System.Windows.Forms.Button();
             this.listBox1 = new System.Windows.Forms.ListBox();
             this.openFileDialog1 = new System.Windows.Forms.OpenFileDialog();
+            this.listBox2 = new System.Windows.Forms.ListBox();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -58,7 +59,7 @@
             this.dateFecha.Checked = false;
             this.dateFecha.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateFecha.Location = new System.Drawing.Point(205, 94);
-            this.dateFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateFecha.Margin = new System.Windows.Forms.Padding(4);
             this.dateFecha.Name = "dateFecha";
             this.dateFecha.ShowUpDown = true;
             this.dateFecha.Size = new System.Drawing.Size(125, 22);
@@ -96,6 +97,8 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.listBox2);
+            this.groupBox1.Controls.Add(this.listBox1);
             this.groupBox1.Controls.Add(this.btnbmusic);
             this.groupBox1.Controls.Add(this.label5);
             this.groupBox1.Controls.Add(this.label4);
@@ -110,9 +113,9 @@
             this.groupBox1.Controls.Add(this.label2);
             this.groupBox1.Controls.Add(this.dateFecha);
             this.groupBox1.Location = new System.Drawing.Point(16, 43);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
             this.groupBox1.Size = new System.Drawing.Size(769, 468);
             this.groupBox1.TabIndex = 7;
             this.groupBox1.TabStop = false;
@@ -121,7 +124,7 @@
             // btnbmusic
             // 
             this.btnbmusic.Location = new System.Drawing.Point(377, 188);
-            this.btnbmusic.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnbmusic.Margin = new System.Windows.Forms.Padding(4);
             this.btnbmusic.Name = "btnbmusic";
             this.btnbmusic.Size = new System.Drawing.Size(100, 28);
             this.btnbmusic.TabIndex = 18;
@@ -152,7 +155,7 @@
             // txtDescrip
             // 
             this.txtDescrip.Location = new System.Drawing.Point(377, 71);
-            this.txtDescrip.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtDescrip.Margin = new System.Windows.Forms.Padding(4);
             this.txtDescrip.Multiline = true;
             this.txtDescrip.Name = "txtDescrip";
             this.txtDescrip.Size = new System.Drawing.Size(240, 91);
@@ -162,7 +165,7 @@
             // 
             this.dateHora.Format = System.Windows.Forms.DateTimePickerFormat.Time;
             this.dateHora.Location = new System.Drawing.Point(205, 139);
-            this.dateHora.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dateHora.Margin = new System.Windows.Forms.Padding(4);
             this.dateHora.Name = "dateHora";
             this.dateHora.ShowUpDown = true;
             this.dateHora.Size = new System.Drawing.Size(125, 22);
@@ -171,7 +174,7 @@
             // txtFuncion
             // 
             this.txtFuncion.Location = new System.Drawing.Point(199, 32);
-            this.txtFuncion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtFuncion.Margin = new System.Windows.Forms.Padding(4);
             this.txtFuncion.Name = "txtFuncion";
             this.txtFuncion.Size = new System.Drawing.Size(132, 22);
             this.txtFuncion.TabIndex = 13;
@@ -179,7 +182,7 @@
             // btnAgre
             // 
             this.btnAgre.Location = new System.Drawing.Point(661, 266);
-            this.btnAgre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgre.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgre.Name = "btnAgre";
             this.btnAgre.Size = new System.Drawing.Size(100, 28);
             this.btnAgre.TabIndex = 12;
@@ -196,7 +199,7 @@
             this.Descrip,
             this.ruta});
             this.lstFecha.Location = new System.Drawing.Point(8, 266);
-            this.lstFecha.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.lstFecha.Margin = new System.Windows.Forms.Padding(4);
             this.lstFecha.Name = "lstFecha";
             this.lstFecha.Size = new System.Drawing.Size(643, 180);
             this.lstFecha.TabIndex = 11;
@@ -231,7 +234,7 @@
             // btnEliminar
             // 
             this.btnEliminar.Location = new System.Drawing.Point(660, 302);
-            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnEliminar.Margin = new System.Windows.Forms.Padding(4);
             this.btnEliminar.Name = "btnEliminar";
             this.btnEliminar.Size = new System.Drawing.Size(100, 28);
             this.btnEliminar.TabIndex = 8;
@@ -242,7 +245,7 @@
             // btnAddEveneto
             // 
             this.btnAddEveneto.Location = new System.Drawing.Point(552, 527);
-            this.btnAddEveneto.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAddEveneto.Margin = new System.Windows.Forms.Padding(4);
             this.btnAddEveneto.Name = "btnAddEveneto";
             this.btnAddEveneto.Size = new System.Drawing.Size(100, 28);
             this.btnAddEveneto.TabIndex = 8;
@@ -254,26 +257,36 @@
             // 
             this.listBox1.FormattingEnabled = true;
             this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(445, 15);
-            this.listBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.listBox1.Location = new System.Drawing.Point(585, 0);
+            this.listBox1.Margin = new System.Windows.Forms.Padding(4);
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(184, 68);
             this.listBox1.TabIndex = 15;
+            this.listBox1.Visible = false;
             this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // openFileDialog1
             // 
             this.openFileDialog1.FileName = "openFileDialog1";
             // 
+            // listBox2
+            // 
+            this.listBox2.FormattingEnabled = true;
+            this.listBox2.ItemHeight = 16;
+            this.listBox2.Location = new System.Drawing.Point(640, 108);
+            this.listBox2.Name = "listBox2";
+            this.listBox2.Size = new System.Drawing.Size(120, 84);
+            this.listBox2.TabIndex = 19;
+            this.listBox2.Visible = false;
+            // 
             // Agregar_Evento
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(867, 570);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.btnAddEveneto);
             this.Controls.Add(this.groupBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Agregar_Evento";
             this.Text = "Agregar_Evento";
             this.Load += new System.EventHandler(this.Agregar_Evento_Load);
@@ -306,5 +319,6 @@
         private System.Windows.Forms.OpenFileDialog openFileDialog1;
         private System.Windows.Forms.Button btnbmusic;
         private System.Windows.Forms.ColumnHeader ruta;
+        private System.Windows.Forms.ListBox listBox2;
     }
 }

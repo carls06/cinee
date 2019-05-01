@@ -20,7 +20,7 @@ namespace Proyecto_Alpha
         private SqlConnection conn;
         private SqlCommand insert;
         private string sCn;
-        OleDbConnection cnn = new OleDbConnection();
+        
         public Agregar_Evento()
         {
             InitializeComponent();
@@ -29,7 +29,7 @@ namespace Proyecto_Alpha
             sCn = cn.cadena;
             conn = new SqlConnection(sCn);
             conn.Open();
-            cnn.ConnectionString = @"Provider=sqloledb;Data Source=SQL5008.site4now.net,1433;Initial Catalog=DB_A464EC_cine;User Id=DB_A464EC_cine_admin;Password=hola1234;";
+          
         }
 
         private void Agregar_Evento_Load(object sender, EventArgs e)
@@ -46,23 +46,34 @@ namespace Proyecto_Alpha
 
         private void btnAgre_Click(object sender, EventArgs e)
         {
+            ListViewItem lista;
 
 
-            
+
             if (txtFuncion.Text == "" || txtDescrip.Text == "") { MessageBox.Show("Debe agregar descripcion y nombre de pelicula"); }
             else
             {
                 string s = dateFecha.Value.Date.ToString("d/M/yyyy") + " " + dateHora.Value.ToString("hh:mm:00 tt");
-                if (!listBox1.Items.Contains(s))
+                if (!listBox1.Items.Contains(s)&&!listBox2.Items.Contains(s))
                 {
-                    string[] c = { txtFuncion.Text, dateFecha.Value.Date.ToString("yyyy/MM/dd"), dateHora.Value.Hour + ":" + dateHora.Value.Minute + ":00", txtDescrip.Text, DireccionMusica };
-                    ListViewItem  lista = new ListViewItem(c);
-                    lstFecha.Items.Add(lista);
-                    
-                }                
-                else
-                    MessageBox.Show("Fecha ya reservada");
 
+                    string[] c = { txtFuncion.Text, dateFecha.Value.Date.ToString("yyyy/MM/dd"), dateHora.Value.Hour + ":" + dateHora.Value.Minute + ":00", txtDescrip.Text, DireccionMusica };
+                    lista = new ListViewItem(c);
+                    lstFecha.Items.Add(lista);
+
+
+                    foreach (ListViewItem lista1 in lstFecha.Items)
+                    {
+                        listBox2.Items.Add(s);
+                    }
+
+                }
+                else
+                {
+                    MessageBox.Show("Fecha y/o hora, ya reservada");
+                }
+
+               
             }
         }
 
@@ -94,7 +105,7 @@ namespace Proyecto_Alpha
                     insert.Parameters["@ruta"].Value = lista.SubItems[4].Text;
                 
                     insert.ExecuteNonQuery();
-                    //MessageBox.Show(lista.SubItems[1].Text + " " + lista.SubItems[2].Text);
+                  
                 }
                 conn.Close();
                 this.Close();
