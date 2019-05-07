@@ -41,8 +41,8 @@ namespace Proyecto_Alpha
         public void inicio()
         {
 
-            try
-            {
+            //try
+            //{
                 if (txtUsuario.Text != null)
                 {
 
@@ -91,13 +91,13 @@ namespace Proyecto_Alpha
                     }
  
                 }
-            }
+            //}
             
 
-            catch
-            {
-                MessageBox.Show("Error! Su contraseña y/o usuario son invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
+            //catch
+            //{
+            //    MessageBox.Show("Error! Su contraseña y/o usuario son invalidos", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            //}
 
         }
 

@@ -14,13 +14,15 @@ namespace Proyecto_Alpha
         public string servidor, usuario, clave, db, cadena;
         public void conec()
         {
-            servidor = "SQL5008.site4now.net,1433";
-            db = "DB_A464EC_cine";
-            usuario = "DB_A464EC_cine_admin";
-            clave = "hola1234";
+            servidor = "tcp:servidor503.database.windows.net,1433";
+            db = "cine";
+            usuario = "rick";
+            clave = "Cholita23";
             cadena = "server=" + servidor + ";uid=" + usuario + ";pwd=" + clave + ";database=" + db;
 
-         
+         //Server=tcp:servidor503.database.windows.net,1433;Initial Catalog=cine;Persist Security Info=False;User ID={your_username};Password={your_password};MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;
+
+
         }
 
     }

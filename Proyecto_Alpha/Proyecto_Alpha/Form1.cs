@@ -56,8 +56,8 @@ namespace Proyecto_Alpha
         }
 
         // cambiar la direccion por cada computadora
-        Image Rojo = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
-        Image Negro = Image.FromFile(@"C:\Users\c-arm\Documents\Visual Studio 2019\StartPages\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
+        Image Rojo = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\PROGRA\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Roja.png");
+        Image Negro = Image.FromFile(@"C:\Users\Terminator2.0\Desktop\PROGRA\cinee\Proyecto_Alpha\Proyecto_Alpha\Silla_Negra.png");
 
         private void btnsql_Click(object sender, EventArgs e)
         {
